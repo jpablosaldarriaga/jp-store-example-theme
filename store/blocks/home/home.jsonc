@@ -1,0 +1,52 @@
+{
+  "store.home": {
+    "blocks": ["rich-text", "slider-layout#home__slider--children"]
+  },
+  "slider-layout#home__slider--children": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "flex-layout.row#home__slider--zero",
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three"
+    ]
+  },
+  "image#home__slider--one": {
+    "props": {
+      "src": "assets/img/main-slide-1.jpg"
+    }
+  },
+  "image#home__slider--two": {
+    "props": {
+      "src": "assets/img/main-slide-2.jpg"
+    }
+  },
+  "image#home__slider--three": {
+    "props": {
+      "src": "assets/img/main-slide-3.jpg"
+    }
+  },
+  "flex-layout.row#home__slider--zero": {
+    "children": ["flex-layout.col#home__slider--zero"]
+  },
+  "flex-layout.col#home__slider--zero": {
+    "children": ["image#home__slider--one", "rich-text#test"]
+  },
+  "rich-text#test": {
+    "props": {
+      "text": "Hola Mundo probando"
+    }
+  }
+}
