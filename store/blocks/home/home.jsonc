@@ -46,7 +46,7 @@
   },
   "rich-text#test": {
     "props": {
-      "text": "Hola Mundo probando"
+      "text": "Hola Mundo commit nueva rama"
     }
   }
 }
