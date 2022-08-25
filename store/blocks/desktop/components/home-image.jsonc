@@ -1,0 +1,15 @@
+{
+  "image#home--image": {
+    "title": "Imagen de home",
+    "props": {
+      "src": "assets/img/b2b-commerce-cover-desktop-1.jpg",
+      "title": "B2B Comerce",
+      "blockClass": "home__image",
+      "link": {
+        "url": "https://www.google.com",
+        "newTab": true,
+        "attributeNoFlow": true
+      }
+    }
+  }
+}
