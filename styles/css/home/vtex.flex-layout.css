@@ -1,0 +1,7 @@
+.flexColChild--section__one--image {
+    max-width: 600px;
+}
+
+.flexCol--section__two--item :global(.vtex-store-link-0-x-buttonLink) {
+    background: red;
+}
