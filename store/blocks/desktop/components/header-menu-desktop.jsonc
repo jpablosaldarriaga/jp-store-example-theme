@@ -1,0 +1,5 @@
+{
+  "menu#header__menu--desktop": {
+    "children": ["menu-item#department__one", "menu-item#department__two"]
+  }
+}
