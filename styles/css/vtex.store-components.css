@@ -1,0 +1,49 @@
+/* * INFO CARD 1 */
+
+.infoCardContainer--info--one {
+    height: 500px;
+    margin-top: 3px;
+    background-color: black;
+}
+
+.infoCardCallActionContainer--info--one :global(.vtex-button) {
+    background-color: white;
+    border-radius: 0;
+}
+
+.infoCardCallActionContainer--info--one :global(.vtex-button__label) {
+    color: black;
+}
+
+.infoCardHeadline--info--one {
+    font-size: medium;
+    color: white;
+}
+
+/* * INFO CARD 2 */
+
+.infoCardContainer--info--two {
+    height: 550px;
+    background-color: black;
+}
+
+.infoCardCallActionText--info--two {
+    color: white;
+}
+
+.infoCardHeadline--info--two {
+    font-size: medium;
+    color: white;
+}
+
+.infoCardImage--info--two {
+    height: 500px;
+}
+
+.vtex-rich-text-0-x-container--text__trend :global(.vtex-rich-text-0-x-heading--text__trend){
+    color: red
+}
+
+.sliderTrack--home__slider {
+    padding: 3px;
+}

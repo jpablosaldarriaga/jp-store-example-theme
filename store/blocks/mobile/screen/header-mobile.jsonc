@@ -16,7 +16,7 @@
     }
   },
   "header-force-center#1-mobile": {
-    "children": ["link#header__link--1-row"]
+    "children": ["link#header__link--1-col"]
   },
   "header-row#2-mobile": {
     "title": "Header medio móvil",
@@ -40,7 +40,8 @@
       "emailPlaceholder": "email",
       "passwordPlaceholher": "password",
       "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true
+      "showIconProfile": true,
+      "hideIconLabel": true
     }
   },
   "search-bar#header__mobile": {
