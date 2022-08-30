@@ -1,0 +1,19 @@
+{
+  // "responsive-layout.mobile#home__info--mobile": {
+  //   "title": "Componente de móvil",
+  //   "children": [
+  //     "rich-text#home__info--mobile-1",
+  //     "rich-text#home__info--mobile-2"
+  //   ]
+  // },
+  // "rich-text#home__info--mobile-1": {
+  //   "props": {
+  //     "text": "# VELOCIDAD EN TODAS LAS DIMENSIONES"
+  //   }
+  // },
+  // "rich-text#home__info--mobile-2": {
+  //   "props": {
+  //     "text": "Descubre una velocidad multidimensional con los X Speedportal & Rick and Morty."
+  //   }
+  // }
+}

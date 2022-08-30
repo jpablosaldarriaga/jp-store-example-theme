@@ -1,0 +1,50 @@
+{
+  "menu-item#department__one": {
+    "props": {
+      "id": "department-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        // "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Woman title",
+        "text": "MUJER"
+      },
+      "blockClass": "department__one"
+    },
+    "blocks": ["submenu.accordion#department__one"]
+  },
+  "submenu.accordion#department__one": {
+    "children": ["menu#department__one"]
+  },
+  "menu#department__one": {
+    "children": ["menu-item#category__one", "menu-item#category__two"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#department__two": {
+    "props": {
+      "id": "department-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        // "href": "https://www.youtube.com/",
+        "noFollow": true,
+        "tagTitle": "Man title",
+        "text": "HOMBRE"
+      },
+      "blockClass": "department__two"
+    },
+    "blocks": ["submenu.accordion#department__two"]
+  },
+  "submenu.accordion#department__two": {
+    "children": ["menu#department__two"]
+  },
+  "menu#department__two": {
+    "children": ["menu-item#category__one", "menu-item#category__two"],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

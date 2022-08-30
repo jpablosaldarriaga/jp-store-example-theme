@@ -1,0 +1,15 @@
+{
+  "link#home__link--button": {
+    "props": {
+      "href": "/",
+      "label": "Click aquí",
+      "displayMode": "button"
+    }
+  },
+  "link#header__link--1-row": {
+    "props": {
+      "href": "/",
+      "label": "esto es un link de prueba"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "menu-item#category__one": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Highlight product",
+        "text": "PRODUCTO DESTACADO"
+      }
+    },
+    "blocks": ["submenu.accordion#category__one"]
+  },
+  "submenu.accordion#category__one": {
+    "children": ["menu#category__one"]
+  },
+  "menu#category__one": {
+    "children": [
+      "menu-item#subcategory__one--1",
+      "menu-item#subcategory__one--2"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__two": {
+    "props": {
+      "id": "category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Footwear",
+        "text": "CALZADO"
+      }
+    }
+  }
+}
