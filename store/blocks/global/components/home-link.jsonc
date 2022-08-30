@@ -6,10 +6,16 @@
       "displayMode": "button"
     }
   },
-  "link#header__link--1-row": {
+  "link#header__link--1-col": {
     "props": {
       "href": "/",
-      "label": "esto es un link de prueba"
+      "label": "¡ENVÍOS GRATIS EN TODAS TUS COMPRAS!"
+    }
+  },
+  "link#header__link--2-col": {
+    "props": {
+      "href": "/",
+      "label": "LAS COLABORACIONES DE ADIDAS SON UNA EXPRESIÓN DE CREATIVIDAD, CONÓCELAS AQUÍ"
     }
   }
 }

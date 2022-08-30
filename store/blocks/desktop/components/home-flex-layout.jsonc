@@ -70,5 +70,11 @@
     "props": {
       "text": "Esto es un texto de prueba"
     }
+  },
+  "rich-text#trend": {
+    "props": {
+      "text": "# TENDENCIAS",
+      "blockClass": "text__trend"
+    }
   }
 }

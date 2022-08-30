@@ -3,8 +3,9 @@
     "props": {
       "id": "department-one",
       "type": "custom",
+      "highlight": true,
       "itemProps": {
-        "type": "external",
+        "type": "internal",
         // "href": "https://www.google.com/",
         "noFollow": true,
         "tagTitle": "Woman title",
@@ -12,23 +13,20 @@
       },
       "blockClass": "department__one"
     },
-    "blocks": ["submenu.accordion#department__one"]
+    "blocks": ["submenu#department__one"]
   },
-  "submenu.accordion#department__one": {
+  "submenu#department__one": {
     "children": ["menu#department__one"]
   },
   "menu#department__one": {
-    "children": ["menu-item#category__one", "menu-item#category__two"],
-    "props": {
-      "orientation": "vertical"
-    }
+    "children": ["menu-item#category__one", "menu-item#category__two"]
   },
   "menu-item#department__two": {
     "props": {
       "id": "department-two",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
         // "href": "https://www.youtube.com/",
         "noFollow": true,
         "tagTitle": "Man title",
@@ -36,15 +34,12 @@
       },
       "blockClass": "department__two"
     },
-    "blocks": ["submenu.accordion#department__two"]
+    "blocks": ["submenu#department__two"]
   },
-  "submenu.accordion#department__two": {
+  "submenu#department__two": {
     "children": ["menu#department__two"]
   },
   "menu#department__two": {
-    "children": ["menu-item#category__one", "menu-item#category__two"],
-    "props": {
-      "orientation": "vertical"
-    }
+    "children": ["menu-item#category__one", "menu-item#category__two"]
   }
 }
