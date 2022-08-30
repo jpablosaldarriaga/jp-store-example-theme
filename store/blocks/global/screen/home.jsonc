@@ -3,13 +3,43 @@
     "blocks": [
       // "rich-text",
       // "slider-layout#home__slider--children"
-      // "list-context.image-list#home__slider--list"
       // "flex-layout.row#home__section--one",
       // "flex-layout.row#home__section--two"
       // "responsive-layout.phone#home__info--phone",
-      "responsive-layout.mobile#home__info--mobile"
+      // "responsive-layout.mobile#home__info--mobile"
       // "responsive-layout.tablet#home__info--tablet",
       // "responsive-layout.desktop#home__info--desktop"
+      "info-card#home__info--one",
+      "info-card#home__info--two",
+      "rich-text#trend",
+      "list-context.image-list#home__slider--trend"
     ]
+  },
+  "info-card#home__info--one": {
+    "props": {
+      "id": "info-card-one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/img/info-card-1.jpg",
+      "headline": "Los NMD_V3 reimaginan el pasado con la mirada puesta en el futuro. Es hora de crear nuevos caminos. Acceso anticipado solo para miembros adiClub.",
+      "callToActionText": "COMPRAR AHORA ->",
+      "callToActionUrl": "/",
+      "blockClass": "info--one",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home__info--two": {
+    "props": {
+      "id": "info-card-two",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/img/info-card-2.jpg",
+      "headline": "TODOS SOMOS COLOMBIA Llega la nueva camiseta visitante de nuestras selecciones Colombia. Acceso anticipado solo para miembros adiClub.",
+      "callToActionMode": "link",
+      "callToActionText": "COMPRAR AHORA",
+      "callToActionUrl": "/",
+      "blockClass": "info--two",
+      "textAlignment": "center"
+    }
   }
 }

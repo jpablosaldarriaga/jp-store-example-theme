@@ -11,9 +11,9 @@
         "text": "PRODUCTO DESTACADO"
       }
     },
-    "blocks": ["submenu.accordion#category__one"]
+    "blocks": ["submenu#category__one"]
   },
-  "submenu.accordion#category__one": {
+  "submenu#category__one": {
     "children": ["menu#category__one"]
   },
   "menu#category__one": {

@@ -1,0 +1,1 @@
+# jp-store-example-theme

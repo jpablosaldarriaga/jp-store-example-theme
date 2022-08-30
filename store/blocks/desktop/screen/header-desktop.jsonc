@@ -9,37 +9,88 @@
   },
   "header-row#1-desktop": {
     "title": "Header superior escritorio",
-    "children": ["header-force-center#1-desktop"],
+    "children": [
+      "icon#1-desktop__icon--cart",
+      "link#header__link--1-col",
+      "icon#1-desktop__icon--cart",
+      "header-spacer",
+      "icon#1-desktop__icon--adidas",
+      "link#header__link--2-col"
+    ],
     "props": {
       "blockClass": "1-desktop"
     }
   },
-  "header-force-center#1-desktop": {
-    "children": ["link#header__link--1-row"]
-  },
   "header-row#2-desktop": {
     "title": "Header medio escritorio",
     "children": [
-      "rich-text#test",
-      "rich-text#test",
-      "rich-text#test",
-      "rich-text#test"
+      "header-spacer",
+      "header-spacer",
+      "rich-text#one",
+      "rich-text#two",
+      "rich-text#three",
+      "rich-text#four"
     ],
     "props": {
       "blockClass": "2-desktop"
+    }
+  },
+  "rich-text#one": {
+    "props": {
+      "text": "ayuda"
+    }
+  },
+  "rich-text#two": {
+    "props": {
+      "text": "cambios y devoluciones"
+    }
+  },
+  "rich-text#three": {
+    "props": {
+      "text": "seguimiento de pedidos"
+    }
+  },
+  "rich-text#four": {
+    "props": {
+      "text": "únete al club"
     }
   },
   "header-row#3-desktop": {
     "title": "Header inferior escritorio",
     "children": [
       "logo#header--logo",
-      "menu#header__menu--desktop",
+      "header-force-center#3-desktop",
       "header-spacer",
+      "search-bar#header__desktop",
       "login",
       "minicart.v2"
     ],
     "props": {
       "blockClass": "3-desktop"
+    }
+  },
+  "header-force-center#3-desktop": {
+    "children": ["menu#header__menu--desktop"],
+    "props": {
+      "blockClass": "force-center__3-desktop"
+    }
+  },
+  "icon#1-desktop__icon--cart": {
+    "props": {
+      "id": "hpa-cart"
+    }
+  },
+  "icon#1-desktop__icon--adidas": {
+    "props": {
+      "id": "mpa-play"
+    }
+  },
+  "search-bar#header__desktop": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutoCompleteOnFocus": true,
+      "maxWidth": 200,
+      "blockClass": "search--desktop"
     }
   }
 }
