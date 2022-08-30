@@ -1,0 +1,45 @@
+{
+  "header-layout.desktop": {
+    "title": "Header Desktop",
+    "children": [
+      "header-row#1-desktop",
+      "header-row#2-desktop",
+      "header-row#3-desktop"
+    ]
+  },
+  "header-row#1-desktop": {
+    "title": "Header superior escritorio",
+    "children": ["header-force-center#1-desktop"],
+    "props": {
+      "blockClass": "1-desktop"
+    }
+  },
+  "header-force-center#1-desktop": {
+    "children": ["link#header__link--1-row"]
+  },
+  "header-row#2-desktop": {
+    "title": "Header medio escritorio",
+    "children": [
+      "rich-text#test",
+      "rich-text#test",
+      "rich-text#test",
+      "rich-text#test"
+    ],
+    "props": {
+      "blockClass": "2-desktop"
+    }
+  },
+  "header-row#3-desktop": {
+    "title": "Header inferior escritorio",
+    "children": [
+      "logo#header--logo",
+      "menu#header__menu--desktop",
+      "header-spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "3-desktop"
+    }
+  }
+}

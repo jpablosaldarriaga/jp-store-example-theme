@@ -1,0 +1,44 @@
+.headerRowBackground--1-mobile {
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+.headerRowContainer--1-mobile :global(.vtex-store-link-0-x-label) {
+    color: aliceblue;
+}
+
+.headerRowBackground--2-mobile {
+    background-color: #fff;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerRowBackground--1-desktop {
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+.headerRowContainer--1-desktop :global(.vtex-store-link-0-x-label) {
+    color: aliceblue;
+}
+
+.headerRowBackground--2-desktop {
+    background-color: #fff;
+    height: 32px;
+}
+
+.headerRowContainer--2-desktop :global(.vtex-rich-text-0-x-container){
+    font-size: 11px;
+}
+
+.headerRowBackground--3-desktop {
+    background-color: #fff;
+    height: 45px;
+}

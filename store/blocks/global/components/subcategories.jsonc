@@ -1,0 +1,28 @@
+{
+  "menu-item#subcategory__one--1": {
+    "props": {
+      "id": "subcategory-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "News",
+        "text": "Novedades"
+      }
+    }
+  },
+  "menu-item#subcategory__one--2": {
+    "props": {
+      "id": "subcategory-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Upcoming releases",
+        "text": "Próximos lanzamientos"
+      }
+    }
+  }
+}

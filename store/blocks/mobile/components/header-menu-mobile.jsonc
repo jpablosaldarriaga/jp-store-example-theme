@@ -1,0 +1,11 @@
+{
+  "drawer#header__mobile--menu": {
+    "children": ["menu#header__menu--mobile"]
+  },
+  "menu#header__menu--mobile": {
+    "children": ["menu-item#department__one", "menu-item#department__two"],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}
