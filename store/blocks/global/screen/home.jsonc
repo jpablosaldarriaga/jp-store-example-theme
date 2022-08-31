@@ -11,8 +11,10 @@
       // "responsive-layout.desktop#home__info--desktop"
       "info-card#home__info--one",
       "info-card#home__info--two",
+      "search-result-layout.customQuery#home__search",
       "rich-text#trend",
-      "list-context.image-list#home__slider--trend"
+      "slider-layout#home__slider--children"
+      // "list-context.image-list#home__slider--trend"
     ]
   },
   "info-card#home__info--one": {
@@ -41,5 +43,35 @@
       "blockClass": "info--two",
       "textAlignment": "center"
     }
+  },
+  "search-result-layout.customQuery#home__search": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#home__search--desktop"]
+  },
+  "search-result-layout.desktop#home__search--desktop": {
+    "children": ["flex-layout.row#home__results"]
+  },
+  "flex-layout.row#home__results": {
+    "children": [
+      // "flex-layout.col#home__results--filter",
+      "flex-layout.col#home__results--search"
+    ]
+  },
+  // "flex-layout.col#home__results--filter": {
+  //   "children": []
+  // },
+  "flex-layout.col#home__results--search": {
+    "children": ["search-content#home__results--search"]
+  },
+  "search-content#home__results--search": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "blocks": ["product-summary.shelf"]
   }
 }
