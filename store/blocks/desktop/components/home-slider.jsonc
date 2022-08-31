@@ -3,16 +3,15 @@
     "title": "slider con hijos declarados",
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
+        "desktop": 4,
         "tablet": 1,
         "mobile": 1
       },
       "infinite": true,
       "blockClass": "home__slider",
-      "autoplay": {
-        "timeout": 3000,
-        "stopOnHover": true
-      }
+      "height": 500,
+      "centerMode": "center",
+      "centerModeSlidersGap": 5
     },
     "children": [
       "image#home__slider--one",
@@ -74,7 +73,8 @@
           "description": "Slide 5"
         }
       ],
-      "height": 400
+      "height": 400,
+      "blockClass": "slider--trend"
     }
   },
   "slider-layout#home__slider--trend": {

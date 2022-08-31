@@ -20,6 +20,10 @@
     color: white;
 }
 
+.infoCardImage--info--one {
+    height: 450px;
+}
+
 /* * INFO CARD 2 */
 
 .infoCardContainer--info--two {
