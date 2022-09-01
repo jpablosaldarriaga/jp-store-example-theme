@@ -1,3 +1,18 @@
+/* * FOOTER NEWSLETTER */
+
+.flexRow--desktop--newsletter {
+    display: flex;
+    background-color: #ede734;
+    align-items: center;
+}
+
+/* *FOOTER TOP */
+
+.flexRow--desktop--top--one {  
+    font-size: 11px;
+    padding: 8px;
+}
+
 /* *FOOTER BOTTOM */
 
 .flexRow--desktop--bottom--one, .flexRow--desktop--bottom--two{

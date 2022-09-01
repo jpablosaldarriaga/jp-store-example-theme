@@ -1,0 +1,64 @@
+{
+  "rich-text#footer__desktop--top--one": {
+    "props": {
+      "text": "PRODUCTOS",
+      "blockClass": "desktop--top--one"
+    }
+  },
+  "rich-text#footer__desktop--top--two": {
+    "props": {
+      "text": "DEPORTES",
+      "blockClass": "desktop--top--two"
+    }
+  },
+  "rich-text#footer__desktop--top--three": {
+    "props": {
+      "text": "COLECCIONES",
+      "blockClass": "desktop--top--three"
+    }
+  },
+  "rich-text#footer__desktop--top--four": {
+    "props": {
+      "text": "ASISTENCIA",
+      "blockClass": "desktop--top--four"
+    }
+  },
+  "rich-text#footer__desktop--top--five": {
+    "props": {
+      "text": "INFORMACIÓN DE LA EMPRESA",
+      "blockClass": "desktop--top--five"
+    }
+  },
+  "rich-text#footer__desktop--top--six": {
+    "props": {
+      "text": "TIENDAS",
+      "blockClass": "desktop--top--six"
+    }
+  },
+  "rich-text#footer__desktop--top--seven": {
+    "props": {
+      "text": "SÍGUENOS",
+      "blockClass": "desktop--top--seven"
+    }
+  },
+  "rich-text#footer__desktop--bottom-1": {
+    "props": {
+      "text": "Nuestros Datos  |  Términos y Condiciones  |  Política de Privacidad  |  Términos #YESadidas  |  Seleccionar País  |  Aviso de Privacidad  |  Uso del Sitio  |  SIC",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "desktop--bottom-1"
+    }
+  },
+  "rich-text#footer__desktop--bottom-2": {
+    "props": {
+      "text": "© 2022 adidas Colombia LTDA",
+      "blockClass": "desktop--bottom-2"
+    }
+  },
+  "rich-text#footer__desktop--newsletter": {
+    "props": {
+      "text": "ÚNETE AL CLUB Y CONSIGUE UN 15% DE DESCUENTO",
+      "blockClass": "desktop--newsletter"
+    }
+  }
+}
