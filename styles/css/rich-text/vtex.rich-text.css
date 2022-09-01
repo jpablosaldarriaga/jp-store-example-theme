@@ -12,3 +12,23 @@
     color: #c8cbcc;
     font-size: 12px;
 }
+
+/* * FOOTER RICH-TEXT TOP */
+
+.paragraph--desktop--top--one, 
+.paragraph--desktop--top--two,
+.paragraph--desktop--top--three,
+.paragraph--desktop--top--four,
+.paragraph--desktop--top--five,
+.paragraph--desktop--top--six,
+.paragraph--desktop--top--seven {
+    color: black;
+    font-weight: bold;
+}
+
+/* * FOOTER RICH-TEXT NEWSLETTER */
+
+.paragraph--desktop--newsletter {
+    font-size: 30px;
+    font-weight: bold;
+}
