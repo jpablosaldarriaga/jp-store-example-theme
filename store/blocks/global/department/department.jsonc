@@ -1,0 +1,41 @@
+{
+  "store.search#department": {
+    "blocks": ["search-result-layout#department"]
+  },
+  "search-result-layout#department": {
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#department": {
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__results"
+    ]
+  },
+  "flex-layout.row#department__breadcrumb": {
+    "children": ["flex-layout.col#department__breadcrumb"]
+  },
+  "flex-layout.col#department__breadcrumb": {
+    "children": ["breadcrumb.search"]
+  },
+  "search-result-layout.mobile#department": {
+    "children": ["rich-text#mobile-response#department"]
+  },
+  "rich-text#desktop-response#department": {
+    "props": {
+      "text": "# Desktop search department"
+    }
+  },
+  "rich-text#mobile-response#department": {
+    "props": {
+      "text": "# Móvil search department"
+    }
+  },
+  "flex-layout.row#department__results": {
+    "title": "Department results",
+    "children": ["gallery-layout-switcher"]
+  }
+}
