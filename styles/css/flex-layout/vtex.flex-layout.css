@@ -18,3 +18,10 @@
 .flexRow--desktop--bottom--one, .flexRow--desktop--bottom--two{
     background-color: #363738;
 }
+
+/* * MINICART */
+
+.flexCol--minicart__empty {
+    display: flex;
+    align-items: center;
+}

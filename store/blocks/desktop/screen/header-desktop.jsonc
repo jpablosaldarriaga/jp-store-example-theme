@@ -77,7 +77,7 @@
   },
   "icon#1-desktop__icon--cart": {
     "props": {
-      "id": "hpa-cart"
+      "id": "vuitg-orders"
     }
   },
   "icon#1-desktop__icon--adidas": {
