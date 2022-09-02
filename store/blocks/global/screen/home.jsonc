@@ -69,9 +69,41 @@
     "children": ["search-content#home__results--search"]
   },
   "search-content#home__results--search": {
-    "blocks": ["gallery", "not-found"]
+    "blocks": ["gallery#home__one", "not-found"],
+    "props": {
+      "blockClass": "home__one"
+    }
   },
-  "gallery": {
-    "blocks": ["product-summary.shelf"]
+  "gallery#home__one": {
+    "blocks": ["product-summary.shelf#adidas"],
+    "props": {
+      "blockClass": "home__one"
+    }
+  },
+  "product-summary.shelf#adidas": {
+    "children": ["flex-layout.row#home__products"]
+  },
+  "flex-layout.row#home__products": {
+    "children": ["flex-layout.col#specs__products"]
+  },
+  "flex-layout.col#specs__products": {
+    "children": [
+      "flex-layout.row#image-product",
+      "flex-layout.row#name-product",
+      "flex-layout.row#price-product",
+      "flex-layout.row#add-button"
+    ]
+  },
+  "flex-layout.row#image-product": {
+    "children": ["product-summary-image"]
+  },
+  "flex-layout.row#name-product": {
+    "children": ["product-summary-name"]
+  },
+  "flex-layout.row#price-product": {
+    "children": ["product-summary-price"]
+  },
+  "flex-layout.row#add-button": {
+    "children": ["product-summary-buy-button"]
   }
 }
