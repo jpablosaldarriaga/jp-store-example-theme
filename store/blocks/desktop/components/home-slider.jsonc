@@ -9,9 +9,9 @@
       },
       "infinite": true,
       "blockClass": "home__slider",
-      "height": 500,
-      "centerMode": "center",
-      "centerModeSlidersGap": 5
+      "height": 500
+      // "centerMode": "center",
+      // "centerModeSlidersGap": 5
     },
     "children": [
       "image#home__slider--one",
@@ -88,5 +88,21 @@
       "infinite": true,
       "blockClass": "home__slider"
     }
+  },
+  "slider-layout#home__slider--product": {
+    "title": "slider product",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider--product",
+      "height": 500,
+      "centerMode": "center",
+      "centerModeSlidersGap": 5
+    },
+    "children": ["product-summary.shelf"]
   }
 }

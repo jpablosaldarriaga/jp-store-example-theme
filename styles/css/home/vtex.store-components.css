@@ -36,12 +36,64 @@
 }
 
 .infoCardHeadline--info--two {
+
+    color: white;
+}
+
+.infoCardSubhead--info--two {
     font-size: medium;
     color: white;
 }
 
 .infoCardImage--info--two {
     height: 500px;
+}
+
+/* * INFO CARD 3 */
+
+.infoCardContainer--info--three {
+    margin-top: 5px;
+    height: 550px;
+    background-color: #f2bff4;
+}
+
+.infoCardCallActionText--info--three {
+    color: black;
+}
+
+.infoCardHeadline--info--three {
+    
+    color: black;
+}
+
+.infoCardSubhead--info--three {
+    font-size: medium;
+    color: black;
+}
+
+.infoCardImage--info--three {
+    height: 500px;
+}
+
+/* * INFO CARD 4 */
+
+.infoCardContainer--info--four {
+    padding: 20px;
+    background-color:   rgba(205,92,92,1);
+}
+
+.infoCardCallActionText--info--four {
+    color: white;
+}
+
+.infoCardHeadline--info--four {
+    
+    color: white;
+}
+
+.infoCardSubhead--info--four {
+    font-size: medium;
+    color: white;
 }
 
 .vtex-rich-text-0-x-container--text__trend :global(.vtex-rich-text-0-x-heading--text__trend){
