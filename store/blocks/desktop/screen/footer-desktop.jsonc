@@ -48,7 +48,10 @@
       "link#footer__top--one-1",
       "link#footer__top--one-2",
       "link#footer__top--one-3",
-      "link#footer__top--one-4"
+      "link#footer__top--one-4",
+      "link#footer__top--one-5",
+      "link#footer__top--one-6",
+      "link#footer__top--one-7"
     ],
     "props": {
       "width": "14%",
@@ -60,9 +63,19 @@
       "rich-text#footer__desktop--top--two",
       "link#footer__top--two-1",
       "link#footer__top--two-2",
+      "link#footer__top--two-3",
+      "link#footer__top--two-4",
+      "link#footer__top--two-5",
+      "link#footer__top--two-6",
+      "link#footer__top--two-7",
       "rich-text#footer__desktop--top--three",
       "link#footer__top--three-1",
-      "link#footer__top--three-2"
+      "link#footer__top--three-2",
+      "link#footer__top--three-3",
+      "link#footer__top--three-4",
+      "link#footer__top--three-5",
+      "link#footer__top--three-6",
+      "link#footer__top--three-7"
     ],
     "props": {
       "width": "14%"
@@ -72,7 +85,11 @@
     "children": [
       "rich-text#footer__desktop--top--four",
       "link#footer__top--four-1",
-      "link#footer__top--four-2"
+      "link#footer__top--four-2",
+      "link#footer__top--four-3",
+      "link#footer__top--four-4",
+      "link#footer__top--four-5",
+      "link#footer__top--four-6"
     ],
     "props": {
       "width": "14%"

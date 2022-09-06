@@ -11,7 +11,12 @@
       // "responsive-layout.desktop#home__info--desktop"
       "info-card#home__info--one",
       "info-card#home__info--two",
-      "search-result-layout.customQuery#home__search",
+      // "search-result-layout.customQuery#home__search",
+      "list-context.product-list#demo1",
+      "info-card#home__info--three",
+      "info-card#home__info--four",
+      "rich-text#popular__now",
+      "flex-layout.row#home__popular--now",
       "rich-text#trend",
       "slider-layout#home__slider--children"
       // "list-context.image-list#home__slider--trend"
@@ -25,7 +30,7 @@
       "imageUrl": "assets/img/info-card-1.jpg",
       "headline": "Los NMD_V3 reimaginan el pasado con la mirada puesta en el futuro. Es hora de crear nuevos caminos. Acceso anticipado solo para miembros adiClub.",
       "callToActionText": "COMPRAR AHORA ->",
-      "callToActionUrl": "/",
+      "callToActionUrl": "/sobre-nosotros",
       "blockClass": "info--one",
       "textAlignment": "center"
     }
@@ -36,74 +41,51 @@
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "assets/img/info-card-2.jpg",
-      "headline": "TODOS SOMOS COLOMBIA Llega la nueva camiseta visitante de nuestras selecciones Colombia. Acceso anticipado solo para miembros adiClub.",
+      "headline": "TODOS SOMOS COLOMBIA",
+      "subhead": "Llega la nueva camiseta visitante de nuestras selecciones Colombia. Acceso anticipado solo para miembros adiClub.",
       "callToActionMode": "link",
       "callToActionText": "COMPRAR AHORA",
-      "callToActionUrl": "/",
+      "callToActionUrl": "/sobre-nosotros",
       "blockClass": "info--two",
       "textAlignment": "center"
     }
   },
-  "search-result-layout.customQuery#home__search": {
+  "info-card#home__info--three": {
     "props": {
-      "querySchema": {
-        "skusFilter": "ALL",
-        "simulationBehavior": "skip"
-      }
-    },
-    "blocks": ["search-result-layout.desktop#home__search--desktop"]
-  },
-  "search-result-layout.desktop#home__search--desktop": {
-    "children": ["flex-layout.row#home__results"]
-  },
-  "flex-layout.row#home__results": {
-    "children": [
-      // "flex-layout.col#home__results--filter",
-      "flex-layout.col#home__results--search"
-    ]
-  },
-  // "flex-layout.col#home__results--filter": {
-  //   "children": []
-  // },
-  "flex-layout.col#home__results--search": {
-    "children": ["search-content#home__results--search"]
-  },
-  "search-content#home__results--search": {
-    "blocks": ["gallery#home__one", "not-found"],
-    "props": {
-      "blockClass": "home__one"
+      "id": "info-card-two",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/img/info-card-3.jpg",
+      "headline": "MÁXIMA COMODIDAD, INFINITAS POSIBILIDADES",
+      "subhead": "Es hora de sentirte a gusto.",
+      "callToActionMode": "link",
+      "callToActionText": "COMPRAR AHORA",
+      "callToActionUrl": "/sobre-nosotros",
+      "blockClass": "info--three",
+      "textAlignment": "center"
     }
   },
-  "gallery#home__one": {
-    "blocks": ["product-summary.shelf#adidas"],
+  "info-card#home__info--four": {
     "props": {
-      "blockClass": "home__one"
+      "id": "info-card-two",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "headline": "HASTA 50% OFF",
+      "subhead": "Además, aprovecha + 20% adicional por compras superiores a $199.900 en el catálogo seleccionado.",
+      "callToActionMode": "link",
+      "callToActionText": "VER TODO",
+      "callToActionUrl": "/sobre-nosotros",
+      "blockClass": "info--four",
+      "textAlignment": "center"
     }
   },
-  "product-summary.shelf#adidas": {
-    "children": ["flex-layout.row#home__products"]
-  },
-  "flex-layout.row#home__products": {
-    "children": ["flex-layout.col#specs__products"]
-  },
-  "flex-layout.col#specs__products": {
+  "flex-layout.row#home__popular--now": {
     "children": [
-      "flex-layout.row#image-product",
-      "flex-layout.row#name-product",
-      "flex-layout.row#price-product",
-      "flex-layout.row#add-button"
+      "link#popular__button--one",
+      "link#popular__button--two",
+      "link#popular__button--three",
+      "link#popular__button--four",
+      "link#popular__button--five"
     ]
-  },
-  "flex-layout.row#image-product": {
-    "children": ["product-summary-image"]
-  },
-  "flex-layout.row#name-product": {
-    "children": ["product-summary-name"]
-  },
-  "flex-layout.row#price-product": {
-    "children": ["product-summary-price"]
-  },
-  "flex-layout.row#add-button": {
-    "children": ["product-summary-buy-button"]
   }
 }

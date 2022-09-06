@@ -1,21 +1,61 @@
 {
   "link#home__link--button": {
     "props": {
-      "href": "/",
+      "href": "/sobre-nosotros",
       "label": "Click aquí",
       "displayMode": "button"
     }
   },
   "link#header__link--1-col": {
     "props": {
-      "href": "/",
+      "href": "/sobre-nosotros",
       "label": "¡ENVÍOS GRATIS EN TODAS TUS COMPRAS!"
     }
   },
   "link#header__link--2-col": {
     "props": {
-      "href": "/",
+      "href": "/sobre-nosotros",
       "label": "LAS COLABORACIONES DE ADIDAS SON UNA EXPRESIÓN DE CREATIVIDAD, CONÓCELAS AQUÍ"
+    }
+  },
+  "link#popular__button--one": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "MATERIALES RECICLADOS",
+      "displayMode": "button",
+      "blockClass": "popular--one"
+    }
+  },
+  "link#popular__button--two": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "GUAYOS",
+      "displayMode": "button",
+      "blockClass": "popular--two"
+    }
+  },
+  "link#popular__button--three": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "SUPERSTAR",
+      "displayMode": "button",
+      "blockClass": "popular--three"
+    }
+  },
+  "link#popular__button--four": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "FORUM",
+      "displayMode": "button",
+      "blockClass": "popular--four"
+    }
+  },
+  "link#popular__button--five": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "LEGO",
+      "displayMode": "button",
+      "blockClass": "popular--five"
     }
   }
 }

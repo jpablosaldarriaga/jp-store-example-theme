@@ -1,37 +1,64 @@
 {
   "store.search": {
-    "blocks": []
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#category": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#subcategory": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
   },
   "store.search#brand": {
-    "blocks": ["search-result-layout"]
-  },
-  "search-result-layout": {
-    "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
-      "search-not-found-layout"
-    ]
-  },
-  "search-result-layout.desktop": {
-    "children": ["rich-text#desktop-response"]
-  },
-  "search-result-layout.mobile": {
-    "children": ["rich-text#mobile-response"]
-  },
-  "rich-text#desktop-response": {
+    "blocks": ["search-result-layout"],
     "props": {
-      "text": "# Desktop search"
-    }
-  },
-  "rich-text#mobile-response": {
-    "props": {
-      "text": "# Móvil search"
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
     }
   }
+  // "search-result-layout": {
+  //   "blocks": [
+  //     "search-result-layout.desktop",
+  //     "search-result-layout.mobile",
+  //     "search-not-found-layout"
+  //   ]
+  // },
+  // "search-result-layout.desktop": {
+  //   "children": ["rich-text#desktop-response"]
+  // },
+  // "search-result-layout.mobile": {
+  //   "children": ["rich-text#mobile-response"]
+  // },
+  // "rich-text#desktop-response": {
+  //   "props": {
+  //     "text": "# Desktop search"
+  //   }
+  // },
+  // "rich-text#mobile-response": {
+  //   "props": {
+  //     "text": "# Móvil search"
+  //   }
+  // },
+  // "product-summary.shelf#prueba": {
+  //   "children": ["product-summary-name"]
+  // }
 }
