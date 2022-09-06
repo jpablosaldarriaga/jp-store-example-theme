@@ -70,9 +70,34 @@
     }
   },
   "header-force-center#3-desktop": {
-    "children": ["menu#header__menu--desktop"],
+    "children": [
+      // "flex-layout.row#trigger__menu",
+      "flex-layout.row#mega__menu"
+    ],
     "props": {
       "blockClass": "force-center__3-desktop"
+    }
+  },
+  "flex-layout.row#trigger__menu": {
+    "children": ["flex-layout.col#trigger-mega-menu"]
+  },
+  "flex-layout.row#mega__menu": {
+    "children": ["mega-menu#desktop"]
+  },
+  "mega-menu#desktop": {
+    "props": {
+      "orientation": "horizontal"
+    }
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["mega-menu-trigger-btn"]
+  },
+  "mega-menu-trigger-btn": {
+    "props": {
+      "Drawer": "drawer"
     }
   },
   "icon#1-desktop__icon--cart": {
@@ -82,7 +107,7 @@
   },
   "icon#1-desktop__icon--adidas": {
     "props": {
-      "id": "mpa-play"
+      "id": "adidas-header"
     }
   },
   "search-bar#header__desktop": {

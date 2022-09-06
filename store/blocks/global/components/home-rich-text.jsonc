@@ -1,0 +1,10 @@
+{
+  "rich-text#popular__now": {
+    "props": {
+      "text": "# POPULAR AHORA",
+      "blockClass": "popular__now",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}
