@@ -16,10 +16,66 @@
     "blocks": ["submenu#department__one"]
   },
   "submenu#department__one": {
-    "children": ["menu#department__one"]
+    "children": ["flex-layout.row#test-one"]
+  },
+  "flex-layout.row#test-one": {
+    "children": ["menu#department__one"],
+    "props": {
+      "blockClass": "prueba-a-ver-que"
+    }
   },
   "menu#department__one": {
-    "children": ["menu-item#category__one", "menu-item#category__two"]
+    "children": [
+      // "flex-layout.col#test-one",
+      // "flex-layout.col#test-two",
+      // "flex-layout.col#test-three",
+      // "flex-layout.col#test-four",
+      // "flex-layout.col#test-five",
+      // "flex-layout.col#test-six"
+      "menu-item#category__one",
+      "menu-item#category__two",
+      "menu-item#category__three",
+      "menu-item#category__four",
+      "menu-item#category__five",
+      "menu-item#category__six",
+      "menu-item#category__seven"
+    ]
+  },
+  "flex-layout.col#test-one": {
+    "children": ["menu-item#category__one"],
+    "props": {
+      "width": "16%"
+    }
+  },
+  "flex-layout.col#test-two": {
+    "children": ["menu-item#category__two"],
+    "props": {
+      "width": "16%"
+    }
+  },
+  "flex-layout.col#test-three": {
+    "children": ["menu-item#category__three"],
+    "props": {
+      "width": "16%"
+    }
+  },
+  "flex-layout.col#test-four": {
+    "children": ["menu-item#category__four"],
+    "props": {
+      "width": "16%"
+    }
+  },
+  "flex-layout.col#test-five": {
+    "children": ["menu-item#category__five", "menu-item#category__six"],
+    "props": {
+      "width": "16%"
+    }
+  },
+  "flex-layout.col#test-six": {
+    "children": ["menu-item#category__seven"],
+    "props": {
+      "width": "16%"
+    }
   },
   "menu-item#department__two": {
     "props": {
@@ -37,9 +93,112 @@
     "blocks": ["submenu#department__two"]
   },
   "submenu#department__two": {
-    "children": ["menu#department__two"]
+    "children": ["flex-layout.row#test-two"]
+  },
+  "flex-layout.row#test-two": {
+    "children": ["menu#department__two"],
+    "props": {
+      "blockClass": "prueba-a-ver-que-2"
+    }
   },
   "menu#department__two": {
-    "children": ["menu-item#category__one", "menu-item#category__two"]
+    "children": [
+      "menu-item#category__one",
+      "menu-item#category__two",
+      "menu-item#category__three",
+      "menu-item#category__four",
+      "menu-item#category__five",
+      "menu-item#category__six",
+      "menu-item#category__seven"
+    ]
+  },
+  "menu-item#department__three": {
+    "props": {
+      "id": "department-three",
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        // "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Kid title",
+        "text": "NIÑOS"
+      },
+      "blockClass": "department__three"
+    },
+    "blocks": ["submenu#department__three"]
+  },
+  "submenu#department__three": {
+    "children": ["flex-layout.row#test-three"]
+  },
+  "flex-layout.row#test-three": {
+    "children": ["menu#department__three"],
+    "props": {
+      "blockClass": "prueba-a-ver-que-2"
+    }
+  },
+  "menu#department__three": {
+    "children": [
+      "menu-item#category__one",
+      "menu-item#category__eight",
+      "menu-item#category__nine",
+      "menu-item#category__ten",
+      "menu-item#category__eleven",
+      "menu-item#category__four",
+      "menu-item#category__five",
+      "menu-item#category__twelve",
+      "menu-item#category__13"
+    ]
+  },
+  "menu-item#department__four": {
+    "props": {
+      "id": "department-four",
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        // "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Sports title",
+        "text": "DEPORTES"
+      },
+      "blockClass": "department__four"
+    },
+    "blocks": ["submenu#department__four"]
+  },
+  "submenu#department__four": {
+    "children": ["menu#department__four"]
+  },
+  "menu#department__four": {
+    "children": [
+      "menu-item#category__14",
+      "menu-item#category__seven",
+      "menu-item#category__15",
+      "menu-item#category__16",
+      "menu-item#category__17",
+      "menu-item#category__18"
+    ]
+  },
+  "menu-item#department__five": {
+    "props": {
+      "id": "department-five",
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        // "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Adidas world title",
+        "text": "MUNDO ADIDAS"
+      },
+      "blockClass": "department__five"
+    },
+    "blocks": ["submenu#department__five"]
+  },
+  "submenu#department__five": {
+    "children": ["menu#department__five"]
+  },
+  "menu#department__five": {
+    "children": []
   }
 }

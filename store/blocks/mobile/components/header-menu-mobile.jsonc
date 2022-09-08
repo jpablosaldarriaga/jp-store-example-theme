@@ -3,7 +3,13 @@
     "children": ["menu#header__menu--mobile"]
   },
   "menu#header__menu--mobile": {
-    "children": ["menu-item#department__one", "menu-item#department__two"],
+    "children": [
+      "menu-item#department__one",
+      "menu-item#department__two",
+      "menu-item#department__three",
+      "menu-item#department__four",
+      "menu-item#department__five"
+    ],
     "props": {
       "orientation": "vertical"
     }

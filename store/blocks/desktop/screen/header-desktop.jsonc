@@ -59,7 +59,12 @@
     "title": "Header inferior escritorio",
     "children": [
       "logo#header--logo",
-      "header-force-center#3-desktop",
+      "modal-trigger#department__one",
+      "modal-trigger#department__two",
+      "modal-trigger#department__three",
+      // "flex-layout.row#menu__container--desktop",
+      // "menu#header__menu--desktop",
+      // "header-force-center#3-desktop",
       "header-spacer",
       "search-bar#header__desktop",
       "login",
@@ -69,35 +74,54 @@
       "blockClass": "3-desktop"
     }
   },
-  "header-force-center#3-desktop": {
-    "children": [
-      // "flex-layout.row#trigger__menu",
-      "flex-layout.row#mega__menu"
-    ],
+  "modal-trigger#department__one": {
+    "children": ["rich-text#department__one", "modal-layout#menu__1"]
+  },
+  "rich-text#department__one": {
     "props": {
-      "blockClass": "force-center__3-desktop"
+      "text": "Click me"
     }
   },
-  "flex-layout.row#trigger__menu": {
-    "children": ["flex-layout.col#trigger-mega-menu"]
-  },
-  "flex-layout.row#mega__menu": {
-    "children": ["mega-menu#desktop"]
-  },
-  "mega-menu#desktop": {
+  "modal-layout#menu__1": {
+    "children": ["rich-text#test"],
     "props": {
-      "orientation": "horizontal"
+      "fullScreen": true
     }
   },
-  "flex-layout.col#trigger-mega-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["mega-menu-trigger-btn"]
+  "modal-trigger#department__two": {
+    "children": ["rich-text#department__two", "modal-layout#menu__2"]
   },
-  "mega-menu-trigger-btn": {
+  "rich-text#department__two": {
     "props": {
-      "Drawer": "drawer"
+      "text": "Click me"
+    }
+  },
+  "modal-layout#menu__2": {
+    "children": ["rich-text#test"]
+  },
+  "modal-trigger#department__three": {
+    "children": ["rich-text#department__three", "modal-layout#menu__3"]
+  },
+  "rich-text#department__three": {
+    "props": {
+      "text": "Click me"
+    }
+  },
+  "modal-layout#menu__3": {
+    "children": ["rich-text#test"]
+  },
+  "flex-layout.row#menu__container--desktop": {
+    "children": ["menu#header__menu--desktop"],
+    "props": {
+      "blockClass": "force-center__3-desktop",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#menu__container--desktop": {
+    "children": [],
+    "props": {
+      "width": "100%",
+      "blockClass": "menu__container--desktop"
     }
   },
   "icon#1-desktop__icon--cart": {
