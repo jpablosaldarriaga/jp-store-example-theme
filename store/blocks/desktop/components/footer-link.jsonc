@@ -48,6 +48,69 @@
       "blockClass": "top--one-4"
     }
   },
+  "link#footer__top--one-8": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "Novedades",
+      "blockClass": "top--one-8"
+    }
+  },
+  "link#footer__top--one-9": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "Blac Friday",
+      "blockClass": "top--one-9"
+    }
+  },
+  "link#footer__top--one-10": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "Outlet",
+      "blockClass": "top--one-10"
+    }
+  },
+  "link#footer__top--one-11": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "Hot Sale",
+      "blockClass": "top--one-11"
+    }
+  },
+  "link#footer__top--one-12": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "Cyber Lunes",
+      "blockClass": "top--one-12"
+    }
+  },
+  "link#footer__top--one-13": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "adiClub",
+      "blockClass": "top--one-13"
+    }
+  },
+  "link#footer__top--one-14": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "Adidas en Casa",
+      "blockClass": "top--one-14"
+    }
+  },
+  "link#footer__top--one-15": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "adidas app",
+      "blockClass": "top--one-15"
+    }
+  },
+  "link#footer__top--one-16": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "adidas Runners",
+      "blockClass": "top--one-16"
+    }
+  },
   "link#footer__top--two-1": {
     "props": {
       "href": "/sobre-nosotros",
@@ -58,139 +121,225 @@
   "link#footer__top--two-2": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Millonarios"
+      "label": "Millonarios",
+      "blockClass": "top--two-2"
     }
   },
   "link#footer__top--two-3": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Fútbol"
+      "label": "Fútbol",
+      "blockClass": "top--two-3"
     }
   },
   "link#footer__top--two-4": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Ciclismo"
+      "label": "Ciclismo",
+      "blockClass": "top--two-4"
     }
   },
   "link#footer__top--two-5": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Running"
+      "label": "Running",
+      "blockClass": "top--two-5"
     }
   },
   "link#footer__top--two-6": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Basketball"
+      "label": "Basketball",
+      "blockClass": "top--two-6"
     }
   },
   "link#footer__top--two-7": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Training"
+      "label": "Training",
+      "blockClass": "top--two-7"
     }
   },
   "link#footer__top--three-1": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Yezzy"
+      "label": "Yezzy",
+      "blockClass": "top--three-1"
     }
   },
   "link#footer__top--three-2": {
     "props": {
       "href": "/",
-      "label": "Ultraboost"
+      "label": "Ultraboost",
+      "blockClass": "top--three-2"
     }
   },
   "link#footer__top--three-3": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Originals"
+      "label": "Originals",
+      "blockClass": "top--three-3"
     }
   },
   "link#footer__top--three-4": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Forum"
+      "label": "Forum",
+      "blockClass": "top--three-4"
     }
   },
   "link#footer__top--three-5": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Stan Smith"
+      "label": "Stan Smith",
+      "blockClass": "top--three-5"
     }
   },
   "link#footer__top--three-6": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "adicolor"
+      "label": "adicolor",
+      "blockClass": "top--three-6"
     }
   },
   "link#footer__top--three-7": {
     "props": {
       "href": "/",
-      "label": "Superstar"
+      "label": "Superstar",
+      "blockClass": "top--three-7"
     }
   },
   "link#footer__top--four-1": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "¿Necesitas ayuda?"
+      "label": "¿Necesitas ayuda?",
+      "blockClass": "top--four-1"
     }
   },
   "link#footer__top--four-2": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Servicio al cliente"
+      "label": "Servicio al cliente",
+      "blockClass": "top--four-2"
     }
   },
   "link#footer__top--four-3": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Dudas frecuentes"
+      "label": "Dudas frecuentes",
+      "blockClass": "top--four-3"
     }
   },
   "link#footer__top--four-4": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Servicio al cliente"
+      "label": "Guia de tallas",
+      "blockClass": "top--four-4"
     }
   },
   "link#footer__top--four-5": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "Guia de tallas"
+      "label": "Realizar pedidos",
+      "blockClass": "top--four-5"
     }
   },
   "link#footer__top--four-6": {
     "props": {
       "href": "/",
-      "label": "Realizar pedidos"
+      "label": "Productos adidas",
+      "blockClass": "top--four-6"
+    }
+  },
+  "link#footer__top--four-7": {
+    "props": {
+      "href": "/",
+      "label": "Ventas por WhatsApp",
+      "blockClass": "top--four-7"
+    }
+  },
+  "link#footer__top--four-8": {
+    "props": {
+      "href": "/",
+      "label": "Pago",
+      "blockClass": "top--four-8"
+    }
+  },
+  "link#footer__top--four-9": {
+    "props": {
+      "href": "/",
+      "label": "Envío",
+      "blockClass": "top--four-9"
+    }
+  },
+  "link#footer__top--four-10": {
+    "props": {
+      "href": "/",
+      "label": "Solicitar mi Devolución",
+      "blockClass": "top--four-10"
+    }
+  },
+  "link#footer__top--four-11": {
+    "props": {
+      "href": "/",
+      "label": "Devoluciones",
+      "blockClass": "top--four-11"
+    }
+  },
+  "link#footer__top--four-12": {
+    "props": {
+      "href": "/",
+      "label": "Cambio en Tiendas",
+      "blockClass": "top--four-12"
+    }
+  },
+  "link#footer__top--four-13": {
+    "props": {
+      "href": "/",
+      "label": "Como Usar Nuestro Sitio",
+      "blockClass": "top--four-13"
+    }
+  },
+  "link#footer__top--four-14": {
+    "props": {
+      "href": "/",
+      "label": "Como Saber la Talla de tu Bra",
+      "blockClass": "top--four-14"
+    }
+  },
+  "link#footer__top--four-15": {
+    "props": {
+      "href": "/",
+      "label": "Mapa del Sitio",
+      "blockClass": "top--four-15"
     }
   },
   "link#footer__top--five-1": {
     "props": {
       "href": "/",
-      "label": "Acerca de adidas"
+      "label": "Acerca de adidas",
+      "blockClass": "top--five-1"
     }
   },
   "link#footer__top--five-2": {
     "props": {
       "href": "/",
-      "label": "Trabaja en Nuestro Equipo"
+      "label": "Trabaja en Nuestro Equipo",
+      "blockClass": "top--five-2"
     }
   },
   "link#footer__top--five-3": {
     "props": {
       "href": "/",
-      "label": "Prensa"
+      "label": "Prensa",
+      "blockClass": "top--five-3"
     }
   },
   "link#footer__top--six-1": {
     "props": {
       "href": "/",
-      "label": "Buscador de Tiendas"
+      "label": "Buscador de Tiendas",
+      "blockClass": "top--six-1"
     }
   },
   "link#footer__top--newsletter--button": {

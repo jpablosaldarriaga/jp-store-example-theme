@@ -1,5 +1,25 @@
 {
   "menu#header__menu--desktop": {
-    "children": ["menu-item#department__one", "menu-item#department__two"]
+    "children": [
+      "flex-layout.row#menu--desktop"
+      // "menu-item#department__one",
+      // "menu-item#department__two",
+      // "menu-item#department__three",
+      // "menu-item#department__four",
+      // "menu-item#department__five"
+    ]
+  },
+  "flex-layout.row#menu--desktop": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "prueba-este"
+    },
+    "children": [
+      "menu-item#department__one",
+      "menu-item#department__two",
+      "menu-item#department__three",
+      "menu-item#department__four",
+      "menu-item#department__five"
+    ]
   }
 }

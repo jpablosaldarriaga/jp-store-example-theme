@@ -1,6 +1,6 @@
 {
   "store.product": {
-    "children": ["rich-text#product"]
+    "children": ["flex-layout.row#quick-view__modal"]
   },
   "rich-text#product": {
     "props": {

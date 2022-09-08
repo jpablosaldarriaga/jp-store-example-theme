@@ -43,9 +43,46 @@
   "flex-layout.row#department__results": {
     "title": "Department results",
     "children": [
+      // "search-content#desktop"
       "flex-layout.col#category__results--filter",
       "flex-layout.col#category__results--content"
     ]
+  },
+  "gallery-layout-switcher": {
+    "children": [
+      "gallery-layout-option#grid__two-columns",
+      "gallery-layout-option#grid__one-column"
+    ]
+  },
+  "gallery-layout-option#grid__one-column": {
+    "props": {
+      "name": "grid-one-column",
+      "blockClass": "grid__selector--one-column"
+    },
+    "children": [
+      "responsive-layout.desktop#selector__one-column--desktop",
+      "icon#grid__selector--one-column"
+    ]
+  },
+  "icon#grid__selector--one-column": {
+    "props": {
+      "id": "mpa-columns",
+      "size": 30
+    }
+  },
+  "responsive-layout.desktop#selector__one-column--desktop": {
+    "children": ["rich-text#one__column"]
+  },
+  "rich-text#one__column": {
+    "props": {
+      "text": "una columna"
+    }
+  },
+  "gallery-layout-option#grid__two-columns": {
+    "props": {
+      "name": "grid-two-columns",
+      "blockClass": "grid__selector--two-columns"
+    }
   },
   "flex-layout.col#category__results--filter": {
     "children": ["filter-navigator.v3"],
@@ -54,27 +91,22 @@
     }
   },
   "flex-layout.col#category__results--content": {
-    "children": ["search-content#results__content--products"],
+    "children": [
+      // "gallery-layout-switcher",
+      "search-content#results__content--products"
+    ],
     "props": {
       "width": "75%"
     }
   },
   "search-content#results__content--products": {
+    "title": "resultados",
     "blocks": ["gallery#department", "not-found"]
   },
   "gallery#department": {
     "props": {
-      "layouts": [
-        {
-          "name": "general-grid",
-          "component": "GeneralGrid",
-          "itemsPerRow": {
-            "desktop": 4,
-            "moblie": 2
-          }
-        }
-      ],
-      "GeneralGrid": "product-summary.shelf"
-    }
+      "blockClass": "department"
+    },
+    "blocks": ["product-summary.shelf#prueba"]
   }
 }
