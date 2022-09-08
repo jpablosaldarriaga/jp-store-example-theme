@@ -9,11 +9,18 @@
   },
   "flex-layout.row#footer__desktop--newsletter": {
     "children": [
+      "flex-layout.col#footer__newsletter--pahntom-1",
       "flex-layout.col#footer__newsletter--one",
       "flex-layout.col#footer__newsletter--two"
     ],
     "props": {
       "blockClass": "desktop--newsletter"
+    }
+  },
+  "flex-layout.col#footer__newsletter--pahntom-1": {
+    "props": {
+      "width": "10%",
+      "blockClass": "top--pahntom-1"
     }
   },
   "flex-layout.col#footer__newsletter--one": {
@@ -45,6 +52,23 @@
   "flex-layout.col#footer__top--one": {
     "children": [
       "rich-text#footer__desktop--top--one",
+      "flex-layout.row#desktop-top__one--top",
+      "flex-layout.row#desktop-top__one--middle",
+      "flex-layout.row#desktop-top__one--bottom"
+    ],
+    "props": {
+      "width": "14%",
+      "blockClass": "top--one"
+    }
+  },
+  "flex-layout.row#desktop-top__one--top": {
+    "children": ["flex-layout.col#desktop-top__one--top"],
+    "props": {
+      "blockClass": "top__one--top"
+    }
+  },
+  "flex-layout.col#desktop-top__one--top": {
+    "children": [
       "link#footer__top--one-1",
       "link#footer__top--one-2",
       "link#footer__top--one-3",
@@ -54,21 +78,86 @@
       "link#footer__top--one-7"
     ],
     "props": {
-      "width": "14%",
-      "blockClass": "top--one"
+      "width": "100%",
+      "blockClass": "top__one--top"
+    }
+  },
+  "flex-layout.row#desktop-top__one--middle": {
+    "children": ["flex-layout.col#desktop-top__one--middle"],
+    "props": {
+      "blockClass": "top__one--middle"
+    }
+  },
+  "flex-layout.col#desktop-top__one--middle": {
+    "children": [
+      "link#footer__top--one-8",
+      "link#footer__top--one-9",
+      "link#footer__top--one-10",
+      "link#footer__top--one-11",
+      "link#footer__top--one-12"
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": "top__one--middle"
+    }
+  },
+  "flex-layout.row#desktop-top__one--bottom": {
+    "children": ["flex-layout.col#desktop-top__one--bottom"],
+    "props": {
+      "blockClass": "top__one--bottom"
+    }
+  },
+  "flex-layout.col#desktop-top__one--bottom": {
+    "children": [
+      "link#footer__top--one-13",
+      "link#footer__top--one-14",
+      "link#footer__top--one-15",
+      "link#footer__top--one-16"
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": "top__one--bottom"
     }
   },
   "flex-layout.col#footer__top--two": {
     "children": [
       "rich-text#footer__desktop--top--two",
+      "flex-layout.row#desktop-top__two--top",
+      "rich-text#footer__desktop--top--three",
+      "flex-layout.row#desktop-top__two--bottom"
+    ],
+    "props": {
+      "width": "14%"
+    }
+  },
+  "flex-layout.row#desktop-top__two--top": {
+    "children": ["flex-layout.col#desktop-top__two--top"],
+    "props": {
+      "blockClass": "top__two--top"
+    }
+  },
+  "flex-layout.row#desktop-top__two--bottom": {
+    "children": ["flex-layout.col#desktop-top__two--bottom"],
+    "props": {
+      "blockClass": "top__two--bottom"
+    }
+  },
+  "flex-layout.col#desktop-top__two--top": {
+    "children": [
       "link#footer__top--two-1",
       "link#footer__top--two-2",
       "link#footer__top--two-3",
       "link#footer__top--two-4",
       "link#footer__top--two-5",
       "link#footer__top--two-6",
-      "link#footer__top--two-7",
-      "rich-text#footer__desktop--top--three",
+      "link#footer__top--two-7"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#desktop-top__two--bottom": {
+    "children": [
       "link#footer__top--three-1",
       "link#footer__top--three-2",
       "link#footer__top--three-3",
@@ -78,40 +167,109 @@
       "link#footer__top--three-7"
     ],
     "props": {
-      "width": "14%"
+      "width": "100%"
     }
   },
   "flex-layout.col#footer__top--three": {
     "children": [
       "rich-text#footer__desktop--top--four",
+      "flex-layout.row#desktop-top__four"
+    ],
+    "props": {
+      "width": "14%"
+    }
+  },
+  "flex-layout.row#desktop-top__four": {
+    "children": ["flex-layout.col#desktop-top__four"],
+    "props": {
+      "blockClass": "desktop-top__four"
+    }
+  },
+  "flex-layout.col#desktop-top__four": {
+    "children": [
       "link#footer__top--four-1",
       "link#footer__top--four-2",
       "link#footer__top--four-3",
       "link#footer__top--four-4",
       "link#footer__top--four-5",
-      "link#footer__top--four-6"
+      "link#footer__top--four-6",
+      "link#footer__top--four-7",
+      "link#footer__top--four-8",
+      "link#footer__top--four-9",
+      "link#footer__top--four-10",
+      "link#footer__top--four-11",
+      "link#footer__top--four-12",
+      "link#footer__top--four-13",
+      "link#footer__top--four-14",
+      "link#footer__top--four-15"
     ],
     "props": {
-      "width": "14%"
+      "width": "100%"
     }
   },
   "flex-layout.col#footer__top--four": {
     "children": [
       "rich-text#footer__desktop--top--five",
-      "link#footer__top--five-1",
-      "link#footer__top--five-2",
-      "link#footer__top--five-3",
+      "flex-layout.row#desktop-top__five--top",
       "rich-text#footer__desktop--top--six",
-      "link#footer__top--six-1"
+      "flex-layout.row#desktop-top__six"
     ],
     "props": {
       "width": "14%"
     }
   },
+  "flex-layout.row#desktop-top__five--top": {
+    "children": ["flex-layout.col#desktop-top__five--top"],
+    "props": {
+      "blockClass": "top__five--top"
+    }
+  },
+  "flex-layout.col#desktop-top__five--top": {
+    "children": [
+      "link#footer__top--five-1",
+      "link#footer__top--five-2",
+      "link#footer__top--five-3"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#desktop-top__six": {
+    "children": ["flex-layout.col#desktop-top__six"],
+    "props": {
+      "blockClass": "top__six"
+    }
+  },
+  "flex-layout.col#desktop-top__six": {
+    "children": ["link#footer__top--six-1"],
+    "props": {
+      "width": "100%"
+    }
+  },
   "flex-layout.col#footer__top--five": {
-    "children": ["rich-text#footer__desktop--top--seven", "social-networks"],
+    "children": [
+      "rich-text#footer__desktop--top--seven",
+      "flex-layout.row#desktop-top__seven"
+    ],
     "props": {
       "width": "14%"
+    }
+  },
+  "flex-layout.row#desktop-top__seven": {
+    "children": ["flex-layout.col#desktop-top__seven"],
+    "props": {
+      "blockClass": "top__seven"
+    }
+  },
+  "flex-layout.col#desktop-top__seven": {
+    "children": [
+      "social-networks#facebook",
+      "social-networks#twitter",
+      "social-networks#pinterest",
+      "social-networks#youtube"
+    ],
+    "props": {
+      "width": "100%"
     }
   },
   "flex-layout.col#footer__top--pahntom-2": {
@@ -132,14 +290,26 @@
       "blockClass": "desktop--bottom--two"
     }
   },
-  "social-networks": {
+  "social-networks#facebook": {
+    "props": {
+      "socialNetworks": [{ "url": "https://facebook.com/", "name": "Facebook" }]
+    }
+  },
+  "social-networks#twitter": {
+    "props": {
+      "socialNetworks": [{ "url": "https://twitter.com/", "name": "Twitter" }]
+    }
+  },
+  "social-networks#pinterest": {
     "props": {
       "socialNetworks": [
-        { "url": "https://facebook.com/", "name": "Facebook" },
-        { "url": "https://twitter.com/", "name": "Twitter" },
-        { "url": "https://pinterest.com/", "name": "Pinterest" },
-        { "url": "https://youtube.com/", "name": "Youtube" }
+        { "url": "https://pinterest.com/", "name": "Pinterest" }
       ]
+    }
+  },
+  "social-networks#youtube": {
+    "props": {
+      "socialNetworks": [{ "url": "https://youtube.com/", "name": "Youtube" }]
     }
   }
 }

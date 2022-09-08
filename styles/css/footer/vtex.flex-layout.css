@@ -13,6 +13,28 @@
     padding: 8px;
 }
 
+.flexRow--top__one--top, .flexRow--top__one--middle, .flexRow--top__one--bottom, .flexRow--top__two--top, .flexRow--top__two--bottom {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.flexRow--desktop-top__four {
+    line-height: 20px;
+    margin-bottom: 80px;
+}
+
+.flexRow--top__five--top {
+    line-height: 20px;
+}
+
+.flexRow--top__six {
+    margin-bottom: 240px;
+}
+
+.flexRow--top__seven {
+    margin-bottom: 240px;
+}
+
 /* *FOOTER BOTTOM */
 
 .flexRow--desktop--bottom--one, .flexRow--desktop--bottom--two{
