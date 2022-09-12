@@ -2,24 +2,89 @@
   "menu#header__menu--desktop": {
     "children": [
       "flex-layout.row#menu--desktop"
+      // "menu-item#department__one"
+      // "menu-item#department__two",
+      // "menu-item#department__three",
+      // "menu-item#department__four",
+      // "menu-item#department__five"
+    ],
+    "props": {
+      "experimentalOptimizeRendering": true
+    }
+  },
+  "flex-layout.row#menu--desktop": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "menu--desktop",
+      "verticalAlign": "middle"
+    },
+    "children": []
+  },
+  "vtex.menu@2.x:menu#category-menu-prueba": {
+    "children": [
       // "menu-item#department__one",
       // "menu-item#department__two",
       // "menu-item#department__three",
       // "menu-item#department__four",
       // "menu-item#department__five"
-    ]
-  },
-  "flex-layout.row#menu--desktop": {
+    ],
     "props": {
-      "fullWidth": true,
-      "blockClass": "prueba-este"
+      "blockClass": "category-menu"
+    }
+  },
+  "menu-item#department__one": {
+    "props": {
+      "id": "department-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        // "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Woman title",
+        "text": "MUJER"
+      },
+      "blockClass": "department__one"
     },
+    "blocks": ["vtex.menu@2.x:submenu#department__one"]
+  },
+  "vtex.menu@2.x:submenu#department__one": {
+    "children": ["flex-layout.row#menu__category--one"],
+    "props": {
+      "blockClass": "submenu-department__one",
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#menu__category--one": {
     "children": [
-      "menu-item#department__one",
-      "menu-item#department__two",
-      "menu-item#department__three",
-      "menu-item#department__four",
-      "menu-item#department__five"
-    ]
+      "flex-layout.col#menu__category--one"
+      // "flex-layout.col#menu__category--two"
+      // "menu#department__one"
+    ],
+    "props": {
+      "blockClass": "test-one"
+    }
+  },
+  "flex-layout.col#menu__category--one": {
+    "children": [
+      "vtex.menu@2.x:menu#menu__category-1-2",
+      "vtex.menu@2.x:menu#menu__category-1-2"
+    ],
+    "props": {
+      "blockClass": "menu__category--one"
+    }
+  },
+  "vtex.menu@2.x:menu#menu__category-1-2": {
+    "children": [
+      // "menu-item#category__one"
+      // "menu-item#category__two",
+      // "menu-item#category__three",
+      // "menu-item#category__four",
+      // "menu-item#category__five",
+      // "menu-item#category__six",
+      // "menu-item#category__seven"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
   }
 }

@@ -1,0 +1,17 @@
+.flexCol--featured-product {
+    margin-right: 20px;
+}
+
+.flexCol--footwear, .flexCol--footwear-clothing-boy {
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.flexCol--footwear-clothing-girl, .flexCol--clothing, .flexCol--accessories, .flexCol--sports-guayos, .flexCol--running, .flexCol--footwear-clothing-size, .flexCol--futbol, .flexCol--gym-training, .flexCol--tennis, .flexCol--cycling, .flexCol--other-sports, .flexCol--news, .flexCol--colaborations, .flexCol--our-world, .flexCol--originals, .flexCol--colections {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.flexRow--category-title-7-2, .flexRow--category-title-8-2, .flexRow--category-title-9-2, .flexRow--category-title-5-2 {
+    margin-top: 10px;
+}

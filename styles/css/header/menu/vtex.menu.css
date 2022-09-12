@@ -1,0 +1,30 @@
+.styledLink--woman, .styledLink--man, .styledLink--kid, .styledLink--sports, .styledLink--adidas-world {
+    font-size: 14px;
+} 
+
+.styledLink--woman, .styledLink--man, .styledLink--kid {
+    font-weight: bold;
+}
+
+.submenuContainer--submenu-woman, .submenuContainer--submenu-man, .submenuContainer--submenu-kid, .submenuContainer--submenu-sports, .submenuContainer--submenu-adidas-world {
+    margin-top: -4px;
+}
+
+.styledLink--featured-product-title, .styledLink--footwear-title, .styledLink--clothing-title, .styledLink--accessories-title, .styledLink--sports-title, .styledLink--guayos-title, .styledLink--running-title, .styledLink--footwear-boy-title, .styledLink--clothing-boy-title, .styledLink--footwear-girl-title, .styledLink--clothing-girl-title, .styledLink--footwear-size-title, .styledLink--clothing-size-title, .styledLink--futbol-title, .styledLink--gym-training-title, .styledLink--tennis-title, .styledLink--cycling-title, .styledLink--other-sports-title, .styledLink--news-title, .styledLink--colaborations-title, .styledLink--our-world-title, .styledLink--originals-title, .styledLink--colections-title {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.styledLinkContent--subcategory {
+    font-size: 11px;
+}
+
+.styledLinkContent--subcategory-red {
+    font-size: 11px;
+    color: red;
+}
+
+.styledLinkContent--subcategory-bold {
+    font-size: 11px;
+    font-weight: bold;
+}
