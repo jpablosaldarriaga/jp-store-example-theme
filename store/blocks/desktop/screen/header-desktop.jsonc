@@ -14,7 +14,7 @@
       "link#header__link--1-col",
       "icon#1-desktop__icon--cart",
       "header-spacer",
-      "icon#1-desktop__icon--adidas",
+      // "icon#1-desktop__icon--adidas",
       "link#header__link--2-col"
     ],
     "props": {
@@ -59,16 +59,18 @@
     "title": "Header inferior escritorio",
     "children": [
       "logo#header--logo",
-      "modal-trigger#department__one",
-      "modal-trigger#department__two",
-      "modal-trigger#department__three",
+      // "modal-trigger#department__one",
+      // "modal-trigger#department__two",
+      // "modal-trigger#department__three",
       // "flex-layout.row#menu__container--desktop",
       // "menu#header__menu--desktop",
       // "header-force-center#3-desktop",
+      "flex-layout.row#menu__container",
       "header-spacer",
       "search-bar#header__desktop",
       "login",
       "minicart.v2"
+      // "flex-layout.row#mega-menu"
     ],
     "props": {
       "blockClass": "3-desktop"
@@ -114,7 +116,8 @@
     "children": ["menu#header__menu--desktop"],
     "props": {
       "blockClass": "force-center__3-desktop",
-      "fullWidth": true
+      "fullWidth": true,
+      "verticalAlign": "middle"
     }
   },
   "flex-layout.col#menu__container--desktop": {

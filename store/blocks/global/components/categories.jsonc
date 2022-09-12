@@ -1,357 +1,133 @@
 {
-  "menu-item#category__one": {
+  "flex-layout.col#category__1": {
     "props": {
-      "id": "category-one",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Highlight product",
-        "text": "PRODUCTO DESTACADO"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__one"
+      "blockClass": "featured-product"
     },
-    "blocks": ["submenu#category__one"]
+    "children": ["vtex.menu@2.x:menu#category__1"]
   },
-  "submenu#category__one": {
-    "children": ["flex-layout.row#prueba"]
-  },
-  "flex-layout.row#prueba": {
-    "children": ["menu#category__one"]
-  },
-  "menu#category__one": {
-    // "children": [
-    //   "menu-item#subcategory__one--1",
-    //   "menu-item#subcategory__one--2",
-    //   "menu-item#subcategory__3",
-    //   "menu-item#subcategory__4",
-    //   "menu-item#subcategory__5",
-    //   "menu-item#subcategory__6",
-    //   "menu-item#subcategory__7",
-    //   "menu-item#subcategory__8",
-    //   "menu-item#subcategory__9"
-    // ],
+  "vtex.menu@2.x:menu#category__1": {
     "props": {
-      "orientation": "vertical",
-      "blockClass": "category__one",
-      "items": [
-        {
-          "id": "subcategory-one",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Novedades"
-          }
-        },
-        {
-          "id": "subcategory-two",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "Upcoming releases",
-            "text": "Próximos Lanzamientos"
-          }
-        },
-        {
-          "id": "subcategory-3",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Exclusivo Miembros"
-          }
-        },
-        {
-          "id": "subcategory-4",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Buscador de Tops Deportivos"
-          }
-        },
-        {
-          "id": "subcategory-5",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Los Más Vendidos"
-          }
-        },
-        {
-          "id": "subcategory-6",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "últimas Unidades"
-          }
-        },
-        {
-          "id": "subcategory-8",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Moda Sostenible"
-          }
-        },
-        {
-          "id": "subcategory-8",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Exclusivos Online"
-          }
-        },
-        {
-          "id": "subcategory-9",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Colaboraciones"
-          }
-        }
-      ]
-    }
-  },
-  "menu-item#category__two": {
-    "props": {
-      "id": "category-two",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Footwear",
-        "text": "CALZADO"
-      },
-      // "onMountBehavior": "open",
-      "blockClass": "category__two"
+      "blockClass": "menu-featured-product",
+      "orientation": "vertical"
     },
-    "blocks": ["submenu#category__two"]
-  },
-  "submenu#category__two": {
-    "children": ["flex-layout.row#prueba-two"]
-  },
-  "flex-layout.row#prueba-two": {
-    "children": ["menu#category__two"]
-  },
-  "menu#category__two": {
-    // "children": [
-    //   "menu-item#subcategory__one--1",
-    //   "menu-item#subcategory__10",
-    //   "menu-item#subcategory__11",
-    //   "menu-item#subcategory__12",
-    //   "menu-item#subcategory__13",
-    //   "menu-item#subcategory__14",
-    //   "menu-item#subcategory__15",
-    //   "menu-item#subcategory__16",
-    //   "menu-item#subcategory__17",
-    //   "menu-item#subcategory__18",
-    //   "menu-item#subcategory__19",
-    //   "menu-item#subcategory__20",
-    //   "menu-item#subcategory__21"
-    // ],
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "category__two",
-      "items": [
-        {
-          "id": "subcategory-one",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Novedades"
-          }
-        },
-        {
-          "id": "subcategory-10",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Ver Todos los Tenis"
-          }
-        },
-        {
-          "id": "subcategory-11",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Guayos"
-          }
-        },
-        {
-          "id": "subcategory-12",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Running"
-          }
-        },
-        {
-          "id": "subcategory-13",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Training"
-          }
-        },
-        {
-          "id": "subcategory-14",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Terex"
-          }
-        },
-        {
-          "id": "subcategory-15",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Yoga"
-          }
-        },
-        {
-          "id": "subcategory-16",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Originals"
-          }
-        },
-        {
-          "id": "subcategory-17",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Forum"
-          }
-        },
-        {
-          "id": "subcategory-18",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Superstar"
-          }
-        },
-        {
-          "id": "subcategory-19",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "NMD"
-          }
-        },
-        {
-          "id": "subcategory-20",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "ZX"
-          }
-        },
-        {
-          "id": "subcategory-21",
-          "type": "custom",
-          "itemProps": {
-            "type": "external",
-            "href": "/",
-            "noFollow": true,
-            "tagTitle": "News",
-            "text": "Outlet Calzado"
-          }
-        }
-      ]
-    }
-  },
-  "menu-item#category__three": {
-    "props": {
-      "id": "category-three",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Footwear",
-        "text": "ROPA"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__three"
-    },
-    "blocks": ["submenu#category__three"]
-  },
-  "submenu#category__three": {
-    "children": ["flex-layout.row#prueba-three"]
-  },
-  "flex-layout.row#prueba-three": {
-    "children": ["menu#category__three"]
-  },
-  "menu#category__three": {
     "children": [
-      "menu-item#subcategory__one--1",
+      "flex-layout.row#category__title-1",
+      "menu-item#subcategory__1",
+      "menu-item#subcategory__2",
+      "menu-item#subcategory__3",
+      "menu-item#subcategory__4",
+      "menu-item#subcategory__5",
+      "menu-item#subcategory__6",
+      "menu-item#subcategory__7",
+      "menu-item#subcategory__8",
+      "menu-item#subcategory__9",
+      "menu-item#subcategory__105",
+      "image#category__image-1",
+      "menu-item#subcategory__106",
+      "menu-item#subcategory__76",
+      "menu-item#subcategory__74",
+      "menu-item#subcategory__107"
+    ]
+  },
+  "flex-layout.row#category__title-1": {
+    "children": ["menu-item#category__title-1"],
+    "props": {
+      "blockClass": "category-title-1"
+    }
+  },
+  "menu-item#category__title-1": {
+    "props": {
+      "id": "featured-product-title",
+      "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "featured-product-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "PRODUCTO DESTACADO",
+        "text": "PRODUCTO DESTACADO"
+      }
+    }
+  },
+  "image#category__image-1": {
+    "title": "Imagen producto destacado",
+    "props": {
+      "src": "assets/img/featured-product-img.jpg",
+      "title": "Featured Product",
+      "blockClass": "fetaured-product__image",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      }
+    }
+  },
+  "flex-layout.col#category__2": {
+    "props": {
+      "blockClass": "footwear"
+    },
+    "children": ["vtex.menu@2.x:menu#category__2"]
+  },
+  "vtex.menu@2.x:menu#category__2": {
+    "props": {
+      "blockClass": "menu-footwear",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-2",
+      "menu-item#subcategory__1",
+      "menu-item#subcategory__10",
+      "menu-item#subcategory__11",
+      "menu-item#subcategory__12",
+      "menu-item#subcategory__13",
+      "menu-item#subcategory__14",
+      "menu-item#subcategory__15",
+      "menu-item#subcategory__16",
+      "menu-item#subcategory__17",
+      "menu-item#subcategory__18",
+      "menu-item#subcategory__19",
+      "menu-item#subcategory__20",
+      "menu-item#subcategory__21"
+    ]
+  },
+  "flex-layout.row#category__title-2": {
+    "children": ["menu-item#category__title-2"],
+    "props": {
+      "blockClass": "category-title-2"
+    }
+  },
+  "menu-item#category__title-2": {
+    "props": {
+      "id": "footwear-title",
+      "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "footwear-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "CALZADO",
+        "text": "CALZADO"
+      }
+    }
+  },
+  "flex-layout.col#category__3": {
+    "props": {
+      "blockClass": "clothing"
+    },
+    "children": ["vtex.menu@2.x:menu#category__3"]
+  },
+  "vtex.menu@2.x:menu#category__3": {
+    "props": {
+      "blockClass": "menu-clothing",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-3",
+      "menu-item#subcategory__1",
       "menu-item#subcategory__22",
       "menu-item#subcategory__23",
       "menu-item#subcategory__24",
@@ -362,69 +138,90 @@
       "menu-item#subcategory__29",
       "menu-item#subcategory__30",
       "menu-item#subcategory__31"
-    ],
+    ]
+  },
+  "flex-layout.row#category__title-3": {
+    "children": ["menu-item#category__title-3"],
     "props": {
-      "orientation": "vertical",
-      "blockClass": "category__three"
+      "blockClass": "category-title-3"
     }
   },
-  "menu-item#category__four": {
+  "menu-item#category__title-3": {
     "props": {
-      "id": "category-four",
+      "id": "clothing-title",
       "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "clothing-title",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Footwear",
+        "tagTitle": "ROPA",
+        "text": "ROPA"
+      }
+    }
+  },
+
+  "flex-layout.col#category__4": {
+    "props": {
+      "blockClass": "accessories"
+    },
+    "children": ["vtex.menu@2.x:menu#category__4"]
+  },
+  "vtex.menu@2.x:menu#category__4": {
+    "props": {
+      "blockClass": "menu-accessories",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-4",
+      "menu-item#subcategory__1",
+      "menu-item#subcategory__2",
+      "menu-item#subcategory__3",
+      "menu-item#subcategory__4",
+      "menu-item#subcategory__5",
+      "menu-item#subcategory__6",
+      "menu-item#subcategory__7",
+      "menu-item#subcategory__8",
+      "menu-item#subcategory__9"
+    ]
+  },
+  "flex-layout.row#category__title-4": {
+    "children": ["menu-item#category__title-4"],
+    "props": {
+      "blockClass": "category-title-4"
+    }
+  },
+  "menu-item#category__title-4": {
+    "props": {
+      "id": "accessories-title",
+      "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "accessories-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "ACCESORIOS",
         "text": "ACCESORIOS"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__four"
-    },
-    "blocks": ["submenu#category__four"]
-  },
-  "submenu#category__four": {
-    "children": ["menu#category__four"]
-  },
-  "menu#category__four": {
-    "children": [
-      "menu-item#subcategory__one--1",
-      "menu-item#subcategory__32",
-      "menu-item#subcategory__33",
-      "menu-item#subcategory__34",
-      "menu-item#subcategory__35",
-      "menu-item#subcategory__36",
-      "menu-item#subcategory__37",
-      "menu-item#subcategory__38",
-      "menu-item#subcategory__39"
-    ],
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "category__four"
+      }
     }
   },
-  "menu-item#category__five": {
+  "flex-layout.col#category__5": {
     "props": {
-      "id": "category-five",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Footwear",
-        "text": "DEPORTES"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__five"
+      "blockClass": "sports-guayos"
     },
-    "blocks": ["submenu#category__five"]
+    "children": ["vtex.menu@2.x:menu#category__5"]
   },
-  "submenu#category__five": {
-    "children": ["menu#category__five"]
-  },
-  "menu#category__five": {
+  "vtex.menu@2.x:menu#category__5": {
+    "props": {
+      "blockClass": "menu-sports-guayos",
+      "orientation": "vertical"
+    },
     "children": [
+      "flex-layout.row#category__title-5-1",
       "menu-item#subcategory__40",
       "menu-item#subcategory__41",
       "menu-item#subcategory__12",
@@ -434,64 +231,71 @@
       "menu-item#subcategory__43",
       "menu-item#subcategory__44",
       "menu-item#subcategory__45",
-      "menu-item#subcategory__46"
-    ],
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "category__five"
-    }
-  },
-  "menu-item#category__six": {
-    "props": {
-      "id": "category-six",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Footwear",
-        "text": "GUAYOS"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__six"
-    },
-    "blocks": ["submenu#category__six"]
-  },
-  "submenu#category__six": {
-    "children": ["menu#category__six"]
-  },
-  "menu#category__six": {
-    "children": [
+      "menu-item#subcategory__46",
+      "flex-layout.row#category__title-5-2",
       "menu-item#subcategory__47",
       "menu-item#subcategory__48",
       "menu-item#subcategory__49"
-    ],
+    ]
+  },
+  "flex-layout.row#category__title-5-1": {
+    "children": ["menu-item#category__title-5-1"],
     "props": {
-      "orientation": "vertical",
-      "blockClass": "category__six"
+      "blockClass": "category-title-5-1"
     }
   },
-  "menu-item#category__seven": {
+  "menu-item#category__title-5-1": {
     "props": {
-      "id": "category-seven",
+      "id": "sports-title",
       "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "sports-title",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Footwear",
-        "text": "RUNNING"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__seven"
+        "tagTitle": "DEPORTES",
+        "text": "DEPORTES"
+      }
+    }
+  },
+  "flex-layout.row#category__title-5-2": {
+    "children": ["menu-item#category__title-5-2"],
+    "props": {
+      "blockClass": "category-title-5-2"
+    }
+  },
+  "menu-item#category__title-5-2": {
+    "props": {
+      "id": "guayos-title",
+      "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "guayos-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "GUAYOS",
+        "text": "GUAYOS"
+      }
+    }
+  },
+  "flex-layout.col#category__6": {
+    "props": {
+      "blockClass": "running"
     },
-    "blocks": ["submenu#category__seven"]
+    "children": ["vtex.menu@2.x:menu#category__6"]
   },
-  "submenu#category__seven": {
-    "children": ["menu#category__seven"]
-  },
-  "menu#category__seven": {
+  "vtex.menu@2.x:menu#category__6": {
+    "props": {
+      "blockClass": "menu-running",
+      "orientation": "vertical"
+    },
     "children": [
+      "flex-layout.row#category__title-6",
+      "image#category__image-2",
       "menu-item#subcategory__50",
       "menu-item#subcategory__51",
       "menu-item#subcategory__52",
@@ -501,296 +305,841 @@
       "menu-item#subcategory__56",
       "menu-item#subcategory__57",
       "menu-item#subcategory__58"
-    ],
+    ]
+  },
+  "flex-layout.row#category__title-6": {
+    "children": ["menu-item#category__title-6"],
     "props": {
-      "orientation": "vertical",
-      "blockClass": "category__seven"
+      "blockClass": "category-title-6"
     }
   },
-  "menu-item#category__eight": {
+  "menu-item#category__title-6": {
     "props": {
-      "id": "category-eight",
+      "id": "running-title",
       "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "running-title",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Footwear",
+        "tagTitle": "RUNNING",
+        "text": "RUNNING"
+      }
+    }
+  },
+  "image#category__image-2": {
+    "title": "Imagen 2",
+    "props": {
+      "src": "assets/img/running-img.jpg",
+      "title": "Running",
+      "blockClass": "running__image",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      }
+    }
+  },
+  "flex-layout.col#category__7": {
+    "props": {
+      "blockClass": "footwear-clothing-boy"
+    },
+    "children": ["vtex.menu@2.x:menu#category__7"]
+  },
+  "vtex.menu@2.x:menu#category__7": {
+    "props": {
+      "blockClass": "menu-footwear-clothing-boy",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-7-1",
+      "menu-item#subcategory__59",
+      "menu-item#subcategory__11",
+      "menu-item#subcategory__60",
+      "menu-item#subcategory__61",
+      "menu-item#subcategory__62",
+      "flex-layout.row#category__title-7-2",
+      "menu-item#subcategory__22",
+      "menu-item#subcategory__23",
+      "menu-item#subcategory__26",
+      "menu-item#subcategory__27",
+      "menu-item#subcategory__28",
+      "menu-item#subcategory__30",
+      "menu-item#subcategory__63"
+    ]
+  },
+  "flex-layout.row#category__title-7-1": {
+    "children": ["menu-item#category__title-7-1"],
+    "props": {
+      "blockClass": "category-title-7-1"
+    }
+  },
+  "menu-item#category__title-7-1": {
+    "props": {
+      "id": "footwear-boy-title",
+      "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "footwear-boy-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "CALZADO NIÑOS",
         "text": "CALZADO NIÑOS"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__eight"
-    },
-    "blocks": ["submenu#category__eight"]
-  },
-  "submenu#category__eight": {
-    "children": ["menu#category__eight"]
-  },
-  "menu#category__eight": {
-    "children": [],
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "category__eight"
+      }
     }
   },
-  "menu-item#category__nine": {
+  "flex-layout.row#category__title-7-2": {
+    "children": ["menu-item#category__title-7-2"],
     "props": {
-      "id": "category-nine",
+      "blockClass": "category-title-7-2"
+    }
+  },
+  "menu-item#category__title-7-2": {
+    "props": {
+      "id": "clothing-boy-title",
       "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "clothing-boy-title",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Footwear",
+        "tagTitle": "ROPA NIÑOS",
         "text": "ROPA NIÑOS"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__nine"
-    },
-    "blocks": ["submenu#category__nine"]
-  },
-  "submenu#category__nine": {
-    "children": ["menu#category__nine"]
-  },
-  "menu#category__nine": {
-    "children": [],
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "category__nine"
+      }
     }
   },
-  "menu-item#category__ten": {
+
+  "flex-layout.col#category__8": {
     "props": {
-      "id": "category-ten",
+      "blockClass": "footwear-clothing-girl"
+    },
+    "children": ["vtex.menu@2.x:menu#category__8"]
+  },
+  "vtex.menu@2.x:menu#category__8": {
+    "props": {
+      "blockClass": "menu-footwear-clothing-girl",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-8-1",
+      "menu-item#subcategory__59",
+      "menu-item#subcategory__11",
+      "menu-item#subcategory__60",
+      "menu-item#subcategory__61",
+      "menu-item#subcategory__62",
+      "flex-layout.row#category__title-8-2",
+      "menu-item#subcategory__22",
+      "menu-item#subcategory__23",
+      "menu-item#subcategory__26",
+      "menu-item#subcategory__27",
+      "menu-item#subcategory__28",
+      "menu-item#subcategory__30",
+      "menu-item#subcategory__63"
+    ]
+  },
+  "flex-layout.row#category__title-8-1": {
+    "children": ["menu-item#category__title-8-1"],
+    "props": {
+      "blockClass": "category-title-8-1"
+    }
+  },
+  "menu-item#category__title-8-1": {
+    "props": {
+      "id": "footwear-girl-title",
       "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "footwear-girl-title",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Footwear",
+        "tagTitle": "CALZADO NIÑAS",
         "text": "CALZADO NIÑAS"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__ten"
-    },
-    "blocks": ["submenu#category__ten"]
-  },
-  "submenu#category__ten": {
-    "children": ["menu#category__ten"]
-  },
-  "menu#category__ten": {
-    "children": [],
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "category__ten"
+      }
     }
   },
-  "menu-item#category__eleven": {
+  "flex-layout.row#category__title-8-2": {
+    "children": ["menu-item#category__title-8-2"],
     "props": {
-      "id": "category-eleven",
+      "blockClass": "category-title-8-2"
+    }
+  },
+  "menu-item#category__title-8-2": {
+    "props": {
+      "id": "clothing-girl-title",
       "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "clothing-girl-title",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Footwear",
+        "tagTitle": "ROPA NIÑAS",
         "text": "ROPA NIÑAS"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__eleven"
-    },
-    "blocks": ["submenu#category__eleven"]
-  },
-  "submenu#category__eleven": {
-    "children": ["menu#category__eleven"]
-  },
-  "menu#category__eleven": {
-    "children": [],
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "category__eleven"
+      }
     }
   },
-  "menu-item#category__twelve": {
+
+  "flex-layout.col#category__9": {
     "props": {
-      "id": "category-twelve",
+      "blockClass": "footwear-clothing-size"
+    },
+    "children": ["vtex.menu@2.x:menu#category__9"]
+  },
+  "vtex.menu@2.x:menu#category__9": {
+    "props": {
+      "blockClass": "menu-footwear-clothing-size",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-9-1",
+      "menu-item#subcategory__64",
+      "menu-item#subcategory__65",
+      "menu-item#subcategory__66",
+      "flex-layout.row#category__title-9-2",
+      "menu-item#subcategory__67",
+      "menu-item#subcategory__68",
+      "menu-item#subcategory__69"
+    ]
+  },
+  "flex-layout.row#category__title-9-1": {
+    "children": ["menu-item#category__title-9-1"],
+    "props": {
+      "blockClass": "category-title-9-1"
+    }
+  },
+  "menu-item#category__title-9-1": {
+    "props": {
+      "id": "footwear-size-title",
       "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "footwear-size-title",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Footwear",
+        "tagTitle": "TALLA CALZADO",
         "text": "TALLA CALZADO"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__twelve"
-    },
-    "blocks": ["submenu#category__twelve"]
-  },
-  "submenu#category__twelve": {
-    "children": ["menu#category__twelve"]
-  },
-  "menu#category__twelve": {
-    "children": [],
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "category__twelve"
+      }
     }
   },
-  "menu-item#category__13": {
+  "flex-layout.row#category__title-9-2": {
+    "children": ["menu-item#category__title-9-2"],
     "props": {
-      "id": "category-four",
+      "blockClass": "category-title-9-2"
+    }
+  },
+  "menu-item#category__title-9-2": {
+    "props": {
+      "id": "clothing-size-title",
       "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "clothing-size-title",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Footwear",
+        "tagTitle": "TALLA ROPA",
         "text": "TALLA ROPA"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__13"
-    },
-    "blocks": ["submenu#category__13"]
-  },
-  "submenu#category__13": {
-    "children": ["menu#category__13"]
-  },
-  "menu#category__13": {
-    "children": [],
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "category__13"
+      }
     }
   },
-  "menu-item#category__14": {
+
+  "flex-layout.col#category__10": {
     "props": {
-      "id": "category-14",
+      "blockClass": "futbol"
+    },
+    "children": ["vtex.menu@2.x:menu#category__10"]
+  },
+  "vtex.menu@2.x:menu#category__10": {
+    "props": {
+      "blockClass": "menu-futbol",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-10",
+      "image#category__image-3",
+      "menu-item#subcategory__40",
+      "menu-item#subcategory__11",
+      "menu-item#subcategory__70",
+      "menu-item#subcategory__71",
+      "menu-item#subcategory__72",
+      "menu-item#subcategory__73",
+      "menu-item#subcategory__74",
+      "menu-item#subcategory__75",
+      "menu-item#subcategory__76",
+      "menu-item#subcategory__77",
+      "menu-item#subcategory__78"
+    ]
+  },
+  "flex-layout.row#category__title-10": {
+    "children": ["menu-item#category__title-10"],
+    "props": {
+      "blockClass": "category-title-10"
+    }
+  },
+  "menu-item#category__title-10": {
+    "props": {
+      "id": "futbol-title",
       "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "futbol-title",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Footwear",
+        "tagTitle": "FUTBOL",
         "text": "FÚTBOL"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__14"
-    },
-    "blocks": ["submenu#category__14"]
-  },
-  "submenu#category__14": {
-    "children": ["menu#category__14"]
-  },
-  "menu#category__14": {
-    "children": [],
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "category__14"
+      }
     }
   },
-  "menu-item#category__15": {
+  "image#category__image-3": {
+    "title": "Imagen 3",
     "props": {
-      "id": "category-15",
+      "src": "assets/img/futbol-img.jpg",
+      "title": "futbol",
+      "blockClass": "futbol__image",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      }
+    }
+  },
+
+  "flex-layout.col#category__11": {
+    "props": {
+      "blockClass": "gym-training"
+    },
+    "children": ["vtex.menu@2.x:menu#category__11"]
+  },
+  "vtex.menu@2.x:menu#category__11": {
+    "props": {
+      "blockClass": "menu-gym-training",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-11",
+      "image#category__image-4",
+      "menu-item#subcategory__79",
+      "menu-item#subcategory__71",
+      "menu-item#subcategory__33",
+      "menu-item#subcategory__4",
+      "menu-item#subcategory__28",
+      "menu-item#subcategory__29",
+      "menu-item#subcategory__22",
+      "menu-item#subcategory__80",
+      "menu-item#subcategory__81",
+      "menu-item#subcategory__82",
+      "menu-item#subcategory__83"
+    ]
+  },
+  "flex-layout.row#category__title-11": {
+    "children": ["menu-item#category__title-11"],
+    "props": {
+      "blockClass": "category-title-11"
+    }
+  },
+  "menu-item#category__title-11": {
+    "props": {
+      "id": "gym-training-title",
       "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "gym-training-title",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Footwear",
+        "tagTitle": "GYM AND TRAINING",
         "text": "GYM AND TRAINING"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__15"
-    },
-    "blocks": ["submenu#category__15"]
-  },
-  "submenu#category__15": {
-    "children": ["menu#category__15"]
-  },
-  "menu#category__15": {
-    "children": [],
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "category__15"
+      }
     }
   },
-  "menu-item#category__16": {
+  "image#category__image-4": {
+    "title": "Imagen 4",
     "props": {
-      "id": "category-16",
+      "src": "assets/img/gym-training-img.jpg",
+      "title": "gym-training",
+      "blockClass": "gym-training__image",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      }
+    }
+  },
+
+  "flex-layout.col#category__12": {
+    "props": {
+      "blockClass": "tennis"
+    },
+    "children": ["vtex.menu@2.x:menu#category__12"]
+  },
+  "vtex.menu@2.x:menu#category__12": {
+    "props": {
+      "blockClass": "menu-tennis",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-12",
+      "image#category__image-5",
+      "menu-item#subcategory__79",
+      "menu-item#subcategory__71",
+      "menu-item#subcategory__84",
+      "menu-item#subcategory__85"
+    ]
+  },
+  "flex-layout.row#category__title-12": {
+    "children": ["menu-item#category__title-12"],
+    "props": {
+      "blockClass": "category-title-12"
+    }
+  },
+  "menu-item#category__title-12": {
+    "props": {
+      "id": "tennis-title",
       "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "tennis-title",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Footwear",
+        "tagTitle": "TENNIS",
         "text": "TENNIS"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__16"
-    },
-    "blocks": ["submenu#category__16"]
-  },
-  "submenu#category__16": {
-    "children": ["menu#category__16"]
-  },
-  "menu#category__16": {
-    "children": [],
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "category__16"
+      }
     }
   },
-  "menu-item#category__17": {
+  "image#category__image-5": {
+    "title": "Imagen 5",
     "props": {
-      "id": "category-17",
+      "src": "assets/img/tennis-img.jpg",
+      "title": "tennis",
+      "blockClass": "tennis__image",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      }
+    }
+  },
+
+  "flex-layout.col#category__13": {
+    "props": {
+      "blockClass": "cycling"
+    },
+    "children": ["vtex.menu@2.x:menu#category__13"]
+  },
+  "vtex.menu@2.x:menu#category__13": {
+    "props": {
+      "blockClass": "menu-cycling",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-13",
+      "image#category__image-6",
+      "menu-item#subcategory__79",
+      "menu-item#subcategory__71",
+      "menu-item#subcategory__86"
+    ]
+  },
+  "flex-layout.row#category__title-13": {
+    "children": ["menu-item#category__title-13"],
+    "props": {
+      "blockClass": "category-title-13"
+    }
+  },
+  "menu-item#category__title-13": {
+    "props": {
+      "id": "cycling-title",
       "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "cycling-title",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "Footwear",
+        "tagTitle": "CICLISMO",
         "text": "CICLISMO"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__17"
-    },
-    "blocks": ["submenu#category__17"]
-  },
-  "submenu#category__17": {
-    "children": ["menu#category__17"]
-  },
-  "menu#category__17": {
-    "children": [],
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "category__17"
+      }
     }
   },
-  "menu-item#category__18": {
+  "image#category__image-6": {
+    "title": "Imagen 6",
     "props": {
-      "id": "category-18",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "/",
-        "noFollow": true,
-        "tagTitle": "Footwear",
-        "text": "OTROS DEPORTES"
-      },
-      "onMountBehavior": "open",
-      "blockClass": "category__18"
+      "src": "assets/img/cycling-img.jpg",
+      "title": "cycling",
+      "blockClass": "cycling__image",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      }
+    }
+  },
+
+  "flex-layout.col#category__14": {
+    "props": {
+      "blockClass": "other-sports"
     },
-    "blocks": ["submenu#category__18"]
+    "children": ["vtex.menu@2.x:menu#category__14"]
   },
-  "submenu#category__18": {
-    "children": ["menu#category__18"]
-  },
-  "menu#category__18": {
-    "children": [],
+  "vtex.menu@2.x:menu#category__14": {
     "props": {
-      "orientation": "vertical",
-      "blockClass": "category__18"
+      "blockClass": "menu-other-sports",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-14",
+      "menu-item#subcategory__79",
+      "menu-item#subcategory__71",
+      "menu-item#subcategory__33",
+      "menu-item#subcategory__4",
+      "menu-item#subcategory__28",
+      "menu-item#subcategory__29",
+      "menu-item#subcategory__22",
+      "menu-item#subcategory__80",
+      "menu-item#subcategory__81",
+      "menu-item#subcategory__82",
+      "menu-item#subcategory__83"
+    ]
+  },
+  "flex-layout.row#category__title-14": {
+    "children": ["menu-item#category__title-14"],
+    "props": {
+      "blockClass": "category-title-14"
+    }
+  },
+  "menu-item#category__title-14": {
+    "props": {
+      "id": "other-sports-title",
+      "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "other-sports-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "OTROS DEPORTES",
+        "text": "OTROS DEPORTES"
+      }
+    }
+  },
+
+  "flex-layout.col#category__15": {
+    "props": {
+      "blockClass": "news"
+    },
+    "children": ["vtex.menu@2.x:menu#category__15"]
+  },
+  "vtex.menu@2.x:menu#category__15": {
+    "props": {
+      "blockClass": "menu-news",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-15",
+      "image#category__image-7",
+      "menu-item#subcategory__89",
+      "menu-item#subcategory__90",
+      "menu-item#subcategory__91",
+      "menu-item#subcategory__92",
+      "menu-item#subcategory__93",
+      "menu-item#subcategory__94"
+    ]
+  },
+  "flex-layout.row#category__title-15": {
+    "children": ["menu-item#category__title-15"],
+    "props": {
+      "blockClass": "category-title-15"
+    }
+  },
+  "menu-item#category__title-15": {
+    "props": {
+      "id": "news-title",
+      "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "news-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "NOVEDADES",
+        "text": "NOVEDADES"
+      }
+    }
+  },
+  "image#category__image-7": {
+    "title": "Imagen 7",
+    "props": {
+      "src": "assets/img/news-img.jpg",
+      "title": "news",
+      "blockClass": "news__image",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      }
+    }
+  },
+
+  "flex-layout.col#category__16": {
+    "props": {
+      "blockClass": "colaborations"
+    },
+    "children": ["vtex.menu@2.x:menu#category__16"]
+  },
+  "vtex.menu@2.x:menu#category__16": {
+    "props": {
+      "blockClass": "menu-colaborations",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-16",
+      "image#category__image-8",
+      "menu-item#subcategory__95",
+      "menu-item#subcategory__96",
+      "menu-item#subcategory__97",
+      "menu-item#subcategory__98",
+      "menu-item#subcategory__99",
+      "menu-item#subcategory__100",
+      "menu-item#subcategory__101",
+      "menu-item#subcategory__102",
+      "menu-item#subcategory__103",
+      "menu-item#subcategory__104"
+    ]
+  },
+  "flex-layout.row#category__title-16": {
+    "children": ["menu-item#category__title-16"],
+    "props": {
+      "blockClass": "category-title-16"
+    }
+  },
+  "menu-item#category__title-16": {
+    "props": {
+      "id": "colaborations-title",
+      "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "colaborations-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "COLABORACIONES",
+        "text": "COLABORACIONES"
+      }
+    }
+  },
+  "image#category__image-8": {
+    "title": "Imagen 8",
+    "props": {
+      "src": "assets/img/colaborations-img.jpg",
+      "title": "colaborations",
+      "blockClass": "colaborations__image",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      }
+    }
+  },
+
+  "flex-layout.col#category__17": {
+    "props": {
+      "blockClass": "our-world"
+    },
+    "children": ["vtex.menu@2.x:menu#category__17"]
+  },
+  "vtex.menu@2.x:menu#category__17": {
+    "props": {
+      "blockClass": "menu-our-world",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-17",
+      "image#category__image-9",
+      "menu-item#subcategory__89",
+      "menu-item#subcategory__90",
+      "menu-item#subcategory__91",
+      "menu-item#subcategory__92",
+      "menu-item#subcategory__93",
+      "menu-item#subcategory__94"
+    ]
+  },
+  "flex-layout.row#category__title-17": {
+    "children": ["menu-item#category__title-17"],
+    "props": {
+      "blockClass": "category-title-17"
+    }
+  },
+  "menu-item#category__title-17": {
+    "props": {
+      "id": "our-world-title",
+      "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "our-world-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "NUESTRO MUNDO",
+        "text": "NUESTRO MUNDO"
+      }
+    }
+  },
+  "image#category__image-9": {
+    "title": "Imagen 9",
+    "props": {
+      "src": "assets/img/our-world-img.jpg",
+      "title": "our-world",
+      "blockClass": "our-world__image",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      }
+    }
+  },
+
+  "flex-layout.col#category__18": {
+    "props": {
+      "blockClass": "originals"
+    },
+    "children": ["vtex.menu@2.x:menu#category__18"]
+  },
+  "vtex.menu@2.x:menu#category__18": {
+    "props": {
+      "blockClass": "menu-originals",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-18",
+      "image#category__image-10",
+      "menu-item#subcategory__95",
+      "menu-item#subcategory__96",
+      "menu-item#subcategory__97",
+      "menu-item#subcategory__98",
+      "menu-item#subcategory__99",
+      "menu-item#subcategory__100",
+      "menu-item#subcategory__101",
+      "menu-item#subcategory__102",
+      "menu-item#subcategory__103",
+      "menu-item#subcategory__104"
+    ]
+  },
+  "flex-layout.row#category__title-18": {
+    "children": ["menu-item#category__title-18"],
+    "props": {
+      "blockClass": "category-title-18"
+    }
+  },
+  "menu-item#category__title-18": {
+    "props": {
+      "id": "originals-title",
+      "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "originals-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "ORIGINALS",
+        "text": "ORIGINALS"
+      }
+    }
+  },
+  "image#category__image-10": {
+    "title": "Imagen 10",
+    "props": {
+      "src": "assets/img/originals-img.jpg",
+      "title": "originals",
+      "blockClass": "originals__image",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      }
+    }
+  },
+
+  "flex-layout.col#category__19": {
+    "props": {
+      "blockClass": "colections"
+    },
+    "children": ["vtex.menu@2.x:menu#category__19"]
+  },
+  "vtex.menu@2.x:menu#category__19": {
+    "props": {
+      "blockClass": "menu-colections",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#category__title-19",
+      "image#category__image-11",
+      "menu-item#subcategory__95",
+      "menu-item#subcategory__96",
+      "menu-item#subcategory__97",
+      "menu-item#subcategory__98",
+      "menu-item#subcategory__99",
+      "menu-item#subcategory__100",
+      "menu-item#subcategory__101",
+      "menu-item#subcategory__102",
+      "menu-item#subcategory__103",
+      "menu-item#subcategory__104"
+    ]
+  },
+  "flex-layout.row#category__title-19": {
+    "children": ["menu-item#category__title-19"],
+    "props": {
+      "blockClass": "category-title-19"
+    }
+  },
+  "menu-item#category__title-19": {
+    "props": {
+      "id": "colections-title",
+      "type": "custom",
+      //   "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "colections-title",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "COLECCIONES",
+        "text": "COLECCIONES"
+      }
+    }
+  },
+  "image#category__image-11": {
+    "title": "Imagen 11",
+    "props": {
+      "src": "assets/img/colections-img.jpg",
+      "title": "colections",
+      "blockClass": "colections__image",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      }
     }
   }
 }

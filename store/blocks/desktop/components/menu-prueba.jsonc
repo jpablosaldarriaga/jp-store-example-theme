@@ -1,0 +1,1069 @@
+{
+  "flex-layout.row#mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "category-menu"
+    },
+    "children": [
+      "menu-item#category-1",
+      "menu-item#category-2",
+      "menu-item#category-3",
+      "menu-item#category-4",
+      "menu-item#category-5",
+      "menu-item#category-6",
+      "menu-item#category-7",
+      "menu-item#category-8",
+      "menu-item#category-9",
+      "menu-item#category-10",
+      "menu-item#category-11",
+      "menu-item#category-12"
+    ]
+  },
+
+  "menu-item#category-1": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Celulares",
+        "text": "Celulares |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-1"]
+  },
+  "menu-item#category-2": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Computadores e impresoras",
+        "text": "Computadores e impresoras |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-2"]
+  },
+  "menu-item#category-3": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "TV",
+        "text": "TV |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-1"]
+  },
+  "menu-item#category-4": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Audio",
+        "text": "Audio |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-2"]
+  },
+  "menu-item#category-5": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Electrodoméstico",
+        "text": "Electrodoméstico |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-1"]
+  },
+  "menu-item#category-6": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Videojuegos",
+        "text": "Videojuegos |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-2"]
+  },
+  "menu-item#category-7": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Cámaras",
+        "text": "Cámaras |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-1"]
+  },
+  "menu-item#category-8": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Casa inteligente",
+        "text": "Casa inteligente | "
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-2"]
+  },
+  "menu-item#category-9": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-1"]
+  },
+  "menu-item#category-10": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Netflix  y Pines",
+        "text": "Netflix y Pines | "
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-2"]
+  },
+  "menu-item#category-11": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Deportes y Smartwatch",
+        "text": "Deportes y Smartwatch |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-1"]
+  },
+  "menu-item#category-12": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Otros",
+        "text": "Otros |"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category-2"]
+  },
+
+  "vtex.menu@2.x:submenu#category-1": {
+    "props": {
+      "blockClass": "submenu-more",
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu__category-1"]
+  },
+  "flex-layout.row#menu__category-1": {
+    "props": {
+      "blockClass": "menu-more"
+    },
+    "children": [
+      "flex-layout.col#menu__category-1",
+      "flex-layout.col#menu__category-2",
+      "flex-layout.col#menu__category-1",
+      "flex-layout.col#menu__category-2"
+    ]
+  },
+  "flex-layout.col#menu__category-1": {
+    "props": {
+      "blockClass": "menu-more-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu__category-1",
+      "vtex.menu@2.x:menu#menu__category-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu__category-1": {
+    "props": {
+      "blockClass": "menu-menu-more",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#menu-icon",
+      "menu-item#category__text-2",
+      "menu-item#category__text-3",
+      "menu-item#category__text-4",
+      "menu-item#category__text-5",
+      "menu-item#category__text-6",
+      "menu-item#category__text-7",
+      "menu-item#category__text-8",
+      "menu-item#category__text-9",
+      "menu-item#category__text-10"
+    ]
+  },
+  "flex-layout.row#menu-icon": {
+    "children": ["image#icon-phone", "menu-item#category__text-1"],
+    "props": {
+      "blockClass": "menu-icon-category"
+    }
+  },
+  "image#icon-phone": {
+    "props": {
+      //   "src": "assets/img/icon-phone.png",
+      "blockClass": "image-icon-menu"
+    }
+  },
+  "menu-item#category__text-1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": "vuitg-orders",
+      "highlight": false,
+      "blockClass": "content-main",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Celulares",
+        "text": "Celulares  >"
+      }
+    }
+  },
+  "menu-item#category__text-2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Marca",
+        "text": "Marca"
+      }
+    }
+  },
+  "menu-item#category__text-3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "iPhone",
+        "text": "iPhone"
+      }
+    }
+  },
+  "menu-item#category__text-4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Samsung",
+        "text": "Samsung"
+      }
+    }
+  },
+  "menu-item#category__text-5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Xioami",
+        "text": "Xioami"
+      }
+    }
+  },
+  "menu-item#category__text-6": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Motorola",
+        "text": "Motorola"
+      }
+    }
+  },
+  "menu-item#category__text-7": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Vivo",
+        "text": "Vivo"
+      }
+    }
+  },
+  "menu-item#category__text-8": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Nokia",
+        "text": "Nokia"
+      }
+    }
+  },
+  "menu-item#category__text-9": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Oppo",
+        "text": "Oppo"
+      }
+    }
+  },
+  "menu-item#category__text-10": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Realme",
+        "text": "Realme"
+      }
+    }
+  },
+
+  "flex-layout.col#menu__category-2": {
+    "props": {
+      "blockClass": "menu-more-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu__category-2",
+      "vtex.menu@2.x:menu#menu__category-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu__category-2": {
+    "props": {
+      "blockClass": "menu-menu-more",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#menu-icon-two",
+      "menu-item#category__text2-2",
+      "menu-item#category__text2-3",
+      "menu-item#category__text2-4",
+      "menu-item#category__text2-5",
+      "menu-item#category__text2-6",
+      "menu-item#category__text2-7",
+      "menu-item#category__text2-8",
+      "menu-item#category__text2-9",
+      "menu-item#category__text2-10"
+    ]
+  },
+  "flex-layout.row#menu-icon-two": {
+    "children": ["image#icon-accesories", "menu-item#category__text-2-1"],
+    "props": {
+      "blockClass": "menu-icon-category"
+    }
+  },
+  "image#icon-accesories": {
+    "props": {
+      //   "src": "assets/img/usb.png",
+      "blockClass": "image-icon-menu"
+    }
+  },
+  "menu-item#category__text-2-1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-main",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Accesorios celulares y tabletas",
+        "text": "Accesorios celulares y tabletas >"
+      }
+    }
+  },
+  "menu-item#category__text2-2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Carcasas y estuches",
+        "text": "Carcasas y estuches"
+      }
+    }
+  },
+  "menu-item#category__text2-3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Audifonos y manos libres",
+        "text": "Audifonos y manos libres"
+      }
+    }
+  },
+  "menu-item#category__text2-4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Memorias micro sd",
+        "text": "Memorias micro sd"
+      }
+    }
+  },
+  "menu-item#category__text2-5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Baterias externas power bank",
+        "text": "Baterias externas power bank"
+      }
+    }
+  },
+  "menu-item#category__text2-6": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Cables cargadores y adaptadores",
+        "text": "Cables cargadores y adaptadores"
+      }
+    }
+  },
+  "menu-item#category__text2-7": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Bases y soportes",
+        "text": "Bases y soportes"
+      }
+    }
+  },
+  "menu-item#category__text2-8": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Selfie stick",
+        "text": "Selfie stick"
+      }
+    }
+  },
+  "menu-item#category__text2-9": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Accesorios iphone",
+        "text": "Accesorios iphone"
+      }
+    }
+  },
+  "menu-item#category__text2-10": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Otros accesorios",
+        "text": "Otros accesorios"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:submenu#category-2": {
+    "props": {
+      "blockClass": "submenu-more",
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#menu__category2-2"]
+  },
+  "flex-layout.row#menu__category2-2": {
+    "props": {
+      "blockClass": "menu-more"
+    },
+    "children": [
+      "flex-layout.col#menu__category2-1",
+      "flex-layout.col#menu__category2-2",
+      "flex-layout.col#menu__category2-1",
+      "flex-layout.col#menu__category2-2"
+    ]
+  },
+  "flex-layout.col#menu__category2-1": {
+    "props": {
+      "blockClass": "menu-more-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu__category2-1",
+      "vtex.menu@2.x:menu#menu__category2-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu__category2-1": {
+    "props": {
+      "blockClass": "menu-menu-more",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#menu-icon-three",
+      "menu-item#category2__text-2",
+      "menu-item#category2__text-3",
+      "menu-item#category2__text-4",
+      "menu-item#category2__text-5",
+      "menu-item#category2__text-6",
+      "menu-item#category2__text-7",
+      "menu-item#category2__text-8",
+      "menu-item#category2__text-9",
+      "menu-item#category2__text-10"
+    ]
+  },
+  "flex-layout.row#menu-icon-three": {
+    "children": ["image#icon-laptop", "menu-item#category2__text-1"],
+    "props": {
+      "blockClass": "menu-icon-category"
+    }
+  },
+  "image#icon-laptop": {
+    "props": {
+      //   "src": "assets/img/portatiles.png",
+      "blockClass": "image-icon-menu"
+    }
+  },
+  "menu-item#category2__text-1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-main",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Computadores portatiles",
+        "text": "Computadores portatiles >"
+      }
+    }
+  },
+  "menu-item#category2__text-2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Convertibles 2 en 1",
+        "text": "Convertibles 2 en 1"
+      }
+    }
+  },
+  "menu-item#category2__text-3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Portatiles laptops",
+        "text": "Portatiles laptops"
+      }
+    }
+  },
+  "menu-item#category2__text-4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Portatiles gaming",
+        "text": "Portatiles gaming"
+      }
+    }
+  },
+  "menu-item#category2__text-5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Marca",
+        "text": "Marca"
+      }
+    }
+  },
+  "menu-item#category2__text-6": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "HP",
+        "text": "HP"
+      }
+    }
+  },
+  "menu-item#category2__text-7": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Lenovo",
+        "text": "Lenovo"
+      }
+    }
+  },
+  "menu-item#category2__text-8": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Accer",
+        "text": "Accer"
+      }
+    }
+  },
+  "menu-item#category2__text-9": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Apple",
+        "text": "Apple"
+      }
+    }
+  },
+  "menu-item#category2__text-10": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Asus",
+        "text": "Asus"
+      }
+    }
+  },
+
+  "flex-layout.col#menu__category2-2": {
+    "props": {
+      "blockClass": "menu-more-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu__category2-2",
+      "vtex.menu@2.x:menu#menu__category2-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu__category2-2": {
+    "props": {
+      "blockClass": "menu-menu-more",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#menu-icon-four",
+      "menu-item#category2__text2-2",
+      "menu-item#category2__text2-3",
+      "menu-item#category2__text2-4",
+      "menu-item#category2__text2-5",
+      "menu-item#category2__text2-6",
+      "menu-item#category2__text2-7",
+      "menu-item#category2__text2-8",
+      "menu-item#category2__text2-9",
+      "menu-item#category2__text2-10"
+    ]
+  },
+  "flex-layout.row#menu-icon-four": {
+    "children": ["image#icon-tv", "menu-item#category2__text2-1"],
+    "props": {
+      "blockClass": "menu-icon-category"
+    }
+  },
+  "image#icon-tv": {
+    "props": {
+      //   "src": "assets/img/icon-televisores.png",
+      "blockClass": "image-icon-menu"
+    }
+  },
+  "menu-item#category2__text2-1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-main",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Televisores",
+        "text": "Televisores >"
+      }
+    }
+  },
+  "menu-item#category2__text2-2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Tamaño de pantalla",
+        "text": "Tamaño de pantalla"
+      }
+    }
+  },
+  "menu-item#category2__text2-3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "10 a 32",
+        "text": "10 a 32"
+      }
+    }
+  },
+  "menu-item#category2__text2-4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "40 a 49",
+        "text": "40 a 49"
+      }
+    }
+  },
+  "menu-item#category2__text2-5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "50 a 59",
+        "text": "50 a 59"
+      }
+    }
+  },
+  "menu-item#category2__text2-6": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "60 o mas",
+        "text": "60 o mas"
+      }
+    }
+  },
+  "menu-item#category2__text2-7": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Tipo de tv",
+        "text": "Tipo de tv"
+      }
+    }
+  },
+  "menu-item#category2__text2-8": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Smart tv",
+        "text": "Smart tv"
+      }
+    }
+  },
+  "menu-item#category2__text2-9": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Android Tv",
+        "text": "Android Tv"
+      }
+    }
+  },
+  "menu-item#category2__text2-10": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Life style",
+        "text": "Life style"
+      }
+    }
+  }
+}
