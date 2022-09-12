@@ -1,8 +1,21 @@
 .heading--popular__now {
     font-size: 30px;
+    font-style: italic;
 }
 
 .heading--text__trend {
     font-size: 30px;
     font-weight: bold;
+}
+
+.container--title__slider--trend-1 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: -12px;
+}
+
+.container--text__slider--trend-1 {
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 20px;
 }

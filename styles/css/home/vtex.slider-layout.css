@@ -6,3 +6,7 @@
 .paginationDotsContainer--home__slider {
     transform: translateY(30px);
 }
+
+.slideChildrenContainer--home__slider {
+    margin-right: 10px;
+}

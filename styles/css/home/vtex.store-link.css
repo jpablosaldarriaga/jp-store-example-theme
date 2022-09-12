@@ -3,4 +3,12 @@
     color: black;
     border-color: gray;
     border-radius: 0;
+    margin-left: 5px;
+    width: 50px;
+    font-style: italic;
+}
+
+.link--slider__trend--button {
+    color: black;
+    font-size: 15px;
 }
