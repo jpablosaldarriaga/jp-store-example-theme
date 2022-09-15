@@ -5,3 +5,7 @@
 .flexCol--section__two--item :global(.vtex-store-link-0-x-buttonLink) {
     background: red;
 }
+
+.flexRow--home__popular--now {
+    padding: 30px;
+}

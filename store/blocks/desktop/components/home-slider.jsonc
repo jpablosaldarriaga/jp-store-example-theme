@@ -39,13 +39,13 @@
   "rich-text#title__slider--trend-1": {
     "props": {
       "blockClass": "title__slider--trend-1",
-      "text": "Todos somos Colombia"
+      "text": "Juventus"
     }
   },
   "rich-text#text__slider--trend-1": {
     "props": {
       "blockClass": "text__slider--trend-1",
-      "text": "Te presentemos la nueva camiseta de selección."
+      "text": "Te presentemos la nueva camiseta secundaria de la Juventus."
     }
   },
   "link#slider__trend--button": {
@@ -57,7 +57,8 @@
   },
   "image#home__slider--one": {
     "props": {
-      "src": "assets/img/cuadrado-1.jpg"
+      "src": "assets/img/cuadrado-1.jpg",
+      "blockClass": "slider--one"
     }
   },
   "flex-layout.row#home__slider--trend-2": {
@@ -66,8 +67,8 @@
   "flex-layout.col#home__slider--trend-2": {
     "children": [
       "image#home__slider--two",
-      "rich-text#title__slider--trend-1",
-      "rich-text#text__slider--trend-1",
+      "rich-text#title__slider--trend-2",
+      "rich-text#text__slider--trend-2",
       "link#slider__trend--button"
     ],
     "props": {
@@ -77,7 +78,20 @@
   },
   "image#home__slider--two": {
     "props": {
-      "src": "assets/img/slider-2.jpg"
+      "src": "assets/img/slider-2.jpg",
+      "blockClass": "slider--two"
+    }
+  },
+  "rich-text#title__slider--trend-2": {
+    "props": {
+      "blockClass": "title__slider--trend-2",
+      "text": "Nmd_v3"
+    }
+  },
+  "rich-text#text__slider--trend-2": {
+    "props": {
+      "blockClass": "text__slider--trend-2",
+      "text": "Las Nmd_v3 reimaginan el pasado con la mirada presta en el futuro."
     }
   },
   "flex-layout.row#home__slider--trend-3": {
@@ -86,8 +100,8 @@
   "flex-layout.col#home__slider--trend-3": {
     "children": [
       "image#home__slider--three",
-      "rich-text#title__slider--trend-1",
-      "rich-text#text__slider--trend-1",
+      "rich-text#title__slider--trend-3",
+      "rich-text#text__slider--trend-3",
       "link#slider__trend--button"
     ],
     "props": {
@@ -97,7 +111,20 @@
   },
   "image#home__slider--three": {
     "props": {
-      "src": "assets/img/slider-3.jpg"
+      "src": "assets/img/slider-3.jpg",
+      "blockClass": "slider--three"
+    }
+  },
+  "rich-text#title__slider--trend-3": {
+    "props": {
+      "blockClass": "title__slider--trend-3",
+      "text": "Encuentra tus tenis perfectos"
+    }
+  },
+  "rich-text#text__slider--trend-3": {
+    "props": {
+      "blockClass": "text__slider--trend-3",
+      "text": "Contesta unas preguntas te decimos qué tennis de running son los indicados para ti."
     }
   },
   "flex-layout.row#home__slider--trend-4": {
@@ -106,8 +133,8 @@
   "flex-layout.col#home__slider--trend-4": {
     "children": [
       "image#home__slider--four",
-      "rich-text#title__slider--trend-1",
-      "rich-text#text__slider--trend-1",
+      "rich-text#title__slider--trend-4",
+      "rich-text#text__slider--trend-4",
       "link#slider__trend--button"
     ],
     "props": {
@@ -117,7 +144,20 @@
   },
   "image#home__slider--four": {
     "props": {
-      "src": "assets/img/slider-4.jpg"
+      "src": "assets/img/slider-4.jpg",
+      "blockClass": "slider--four"
+    }
+  },
+  "rich-text#title__slider--trend-4": {
+    "props": {
+      "blockClass": "title__slider--trend-4",
+      "text": "Descubre tu top ideal"
+    }
+  },
+  "rich-text#text__slider--trend-4": {
+    "props": {
+      "blockClass": "text__slider--trend-4",
+      "text": "Encuentra el diseño que mejor se adapte a tus necesidades respondiendo el test."
     }
   },
   "flex-layout.row#home__slider--trend-5": {
@@ -137,7 +177,8 @@
   },
   "image#home__slider--five": {
     "props": {
-      "src": "assets/img/slider-5.jpg"
+      "src": "assets/img/slider-5.jpg",
+      "blockClass": "slider--five"
     }
   },
   "list-context.image-list#home__slider--trend": {
