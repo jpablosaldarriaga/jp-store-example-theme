@@ -103,3 +103,8 @@
 .sliderTrack--home__slider {
     padding: 3px;
 }
+
+.imageElement--slider--one, .imageElement--slider--two, .imageElement--slider--three, .imageElement--slider--four, .imageElement--slider--five {
+    height: 350px;
+    margin-bottom: 0;
+}

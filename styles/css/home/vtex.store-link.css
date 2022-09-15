@@ -1,14 +1,20 @@
-.link--popular--one,  .link--popular--two, .link--popular--three, .link--popular--four, .link--popular--five{
+.link--popular--one,  .link--popular--two, .link--popular--three, .link--popular--four, .link--popular--five {
     background-color: white;
     color: black;
     border-color: gray;
     border-radius: 0;
     margin-left: 5px;
-    width: 50px;
     font-style: italic;
+    font-size: 30px;
+    margin-bottom: 15px;
 }
 
 .link--slider__trend--button {
     color: black;
     font-size: 15px;
+}
+
+.buttonLink--popular--two {
+    display: flex;
+    width: auto;
 }

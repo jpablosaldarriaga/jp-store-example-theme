@@ -47,7 +47,8 @@
   "search-bar#header__mobile": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "openAutoCompleteOnFocus": true
+      "openAutoCompleteOnFocus": true,
+      "maxWidth": 50
     }
   },
   "autocomplete-result-list.v2": {

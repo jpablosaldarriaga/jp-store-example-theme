@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "whatsapp-button",
       // "rich-text",
       // "slider-layout#home__slider--children"
       // "flex-layout.row#home__section--one",
@@ -21,6 +22,13 @@
       "slider-layout#home__slider--children"
       // "list-context.image-list#home__slider--trend"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "573215981063",
+      "message": "esta prueba se autodestruira en 3, 2, 1 ...."
+    }
   },
   "info-card#home__info--one": {
     "props": {
@@ -81,11 +89,30 @@
   },
   "flex-layout.row#home__popular--now": {
     "children": [
-      "link#popular__button--one",
-      "link#popular__button--two",
-      "link#popular__button--three",
-      "link#popular__button--four",
-      "link#popular__button--five"
-    ]
+      "flex-layout.col#home__popular--1",
+      "flex-layout.col#home__popular--2",
+      "flex-layout.col#home__popular--3"
+    ],
+    "props": {
+      "blockClass": "home__popular--now"
+    }
+  },
+  "flex-layout.col#home__popular--1": {
+    "children": ["link#popular__button--one", "link#popular__button--two"],
+    "props": {
+      "blockClass": "home__popular--1"
+    }
+  },
+  "flex-layout.col#home__popular--2": {
+    "children": ["link#popular__button--three", "link#popular__button--four"],
+    "props": {
+      "blockClass": "home__popular--2"
+    }
+  },
+  "flex-layout.col#home__popular--3": {
+    "children": ["link#popular__button--five", "link#popular__button--six"],
+    "props": {
+      "blockClass": "home__popular--3"
+    }
   }
 }

@@ -8,5 +8,9 @@
 }
 
 .slideChildrenContainer--home__slider {
-    margin-right: 10px;
+    margin-right: 5px;
+}
+
+.caretIcon--home__slider {
+    background-color: white;
 }
