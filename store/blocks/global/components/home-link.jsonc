@@ -21,40 +21,42 @@
   "link#popular__button--one": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "MATERIALES RECICLADOS",
-      "displayMode": "button",
+      "label": "materiales reciclados",
       "blockClass": "popular--one"
     }
   },
   "link#popular__button--two": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "GUAYOS",
-      "displayMode": "button",
+      "label": "guayos",
       "blockClass": "popular--two"
     }
   },
   "link#popular__button--three": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "SUPERSTAR",
-      "displayMode": "button",
+      "label": "superstar",
       "blockClass": "popular--three"
     }
   },
   "link#popular__button--four": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "FORUM",
-      "displayMode": "button",
+      "label": "forum",
       "blockClass": "popular--four"
     }
   },
   "link#popular__button--five": {
     "props": {
       "href": "/sobre-nosotros",
-      "label": "LEGO",
-      "displayMode": "button",
+      "label": "lego",
+      "blockClass": "popular--five"
+    }
+  },
+  "link#popular__button--six": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "samba",
       "blockClass": "popular--five"
     }
   }

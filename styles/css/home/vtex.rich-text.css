@@ -8,14 +8,19 @@
     font-weight: bold;
 }
 
-.container--title__slider--trend-1 {
+.container--title__slider--trend-1, .container--title__slider--trend-2, .container--title__slider--trend-3, .container--title__slider--trend-4 {
     font-size: 15px;
     font-weight: bold;
     margin-bottom: -12px;
+    margin-top: 10px;
 }
 
-.container--text__slider--trend-1 {
+.container--text__slider--trend-1, .container--text__slider--trend-2, .container--text__slider--trend-3, .container--text__slider--trend-4 {
     font-size: 12px;
     margin-top: -10px;
     margin-bottom: 20px;
+}
+
+.container--popular__now, .container--trend {
+ padding: 50px;
 }
