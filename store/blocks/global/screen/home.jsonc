@@ -34,56 +34,49 @@
       "bullets": [
         {
           "image": "assets/img/tenis.jpg",
-          "titleBullet": "Ejemplooo",
+          "titleBullet": "TENIS",
           "link": {
             "url": "/"
           }
         },
         {
           "image": "assets/img/ropa.jpg",
-          "titleBullet": "Ejemplooo22222",
+          "titleBullet": "ROPA",
           "link": {
             "url": "/"
           }
         },
         {
-          "image": "assets/img/tenis.jpg",
-          "titleBullet": "Ejemplooo6666",
+          "image": "assets/img/outlet.jpg",
+          "titleBullet": "OUTLET",
           "link": {
             "url": "/"
           }
         },
         {
-          "image": "assets/img/ropa.jpg",
-          "titleBullet": "Ejemplooo3333",
+          "image": "assets/img/tenis-originals.jpg",
+          "titleBullet": "TENIS ORIGINALS",
           "link": {
             "url": "/"
           }
         },
         {
-          "image": "assets/img/tenis.jpg",
-          "titleBullet": "Ejemplooo44444",
+          "image": "assets/img/tenis-de-running.jpg",
+          "titleBullet": "TENIS DE RUNNING",
           "link": {
             "url": "/"
           }
         },
         {
-          "image": "assets/img/ropa.jpg",
-          "titleBullet": "Ejemplooo55555",
+          "image": "assets/img/guayos.jpg",
+          "titleBullet": "GUAYOS",
           "link": {
             "url": "/"
           }
         },
         {
-          "image": "assets/img/tenis.jpg",
-          "titleBullet": "Ejemplooo7777",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "assets/img/ropa.jpg",
-          "titleBullet": "Ejemplooo8888",
+          "image": "assets/img/camisetas.jpg",
+          "titleBullet": "CAMISETAS",
           "link": {
             "url": "/"
           }

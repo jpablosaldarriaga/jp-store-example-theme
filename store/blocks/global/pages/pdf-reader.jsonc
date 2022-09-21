@@ -1,0 +1,26 @@
+{
+  "store.custom#pdf-reader": {
+    "blocks": ["flex-layout.row#pdf-reader"]
+  },
+  "flex-layout.row#pdf-reader": {
+    "children": ["rich-text#lector-pdf", "flex-layout.col#pdf-reader"]
+  },
+  "rich-text#lector-pdf": {
+    "props": {
+      "text": "esto es un pagina para los pdf"
+    }
+  },
+  "flex-layout.col#pdf-reader": {
+    "children": ["pdf-reader"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/documents/lorem-ipsum.pdf",
+      "width": 500,
+      "height": 800
+    }
+  }
+}

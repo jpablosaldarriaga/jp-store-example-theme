@@ -1,5 +1,8 @@
 {
   "store.custom#about-us": {
     "path": "/sobre-nosotros"
+  },
+  "store.custom#pdf-reader": {
+    "path": "/lector-pdf"
   }
 }

@@ -1,0 +1,4 @@
+.gallery--department {
+    display: flex;
+    align-items: end;
+}
