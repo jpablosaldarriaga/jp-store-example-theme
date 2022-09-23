@@ -59,11 +59,13 @@
     "itgloberspartnercl.add-to-cart-info": "0.x",
     "itgloberspartnercl.custom-department-search": "0.x",
     "itgloberspartnercl.pdf-reader": "0.x",
-    "itgloberspartnercl.quick-order": "0.x"
+    "itgloberspartnercl.quick-order": "0.x",
+    "itgloberspartnercl.special-diagramation": "0.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x",
-    "vtex.wish-list": "1.x"
+    "vtex.wish-list": "1.x",
+    "vtex.questions-and-answers": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
