@@ -1,0 +1,16 @@
+{
+  "image#custom-grid__image--one": {
+    "title": "Imagen de home",
+    "props": {
+      "src": "assets/img/custom-one.jpg",
+      "title": "Grid uno",
+      "blockClass": "grid__image--one",
+      "link": {
+        "url": "/",
+        "newTab": true,
+        "attributeNoFlow": true
+      },
+      "maxHeight": 500
+    }
+  }
+}

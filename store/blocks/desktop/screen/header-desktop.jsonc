@@ -69,7 +69,6 @@
       "header-spacer",
       "search-bar#header__desktop",
       "login",
-      "department-search",
       "minicart.v2"
       // "flex-layout.row#mega-menu"
     ],
