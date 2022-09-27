@@ -19,17 +19,9 @@
   },
   "flex-layout.col#section__one--text": {
     "title": "Texto de sección uno",
-    "children": [
-      "rich-text#section__one--title",
-      "rich-text#section__one--paragraph"
-    ],
+    "children": ["rich-text#section__one--paragraph"],
     "props": {
       "verticalAlign": "middle"
-    }
-  },
-  "rich-text#section__one--title": {
-    "props": {
-      "text": "# Bienvenido a la tienda de Juan Pablo"
     }
   },
   "rich-text#section__one--paragraph": {
