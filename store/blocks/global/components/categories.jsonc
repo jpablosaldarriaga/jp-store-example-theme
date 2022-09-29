@@ -39,7 +39,6 @@
     "props": {
       "id": "featured-product-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "featured-product-title",
       "itemProps": {
@@ -102,7 +101,6 @@
     "props": {
       "id": "footwear-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "footwear-title",
       "itemProps": {
@@ -150,7 +148,6 @@
     "props": {
       "id": "clothing-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "clothing-title",
       "itemProps": {
@@ -197,7 +194,6 @@
     "props": {
       "id": "accessories-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "accessories-title",
       "itemProps": {
@@ -248,7 +244,6 @@
     "props": {
       "id": "sports-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "sports-title",
       "itemProps": {
@@ -270,7 +265,6 @@
     "props": {
       "id": "guayos-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "guayos-title",
       "itemProps": {
@@ -317,7 +311,6 @@
     "props": {
       "id": "running-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "running-title",
       "itemProps": {
@@ -380,7 +373,6 @@
     "props": {
       "id": "footwear-boy-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "footwear-boy-title",
       "itemProps": {
@@ -402,7 +394,6 @@
     "props": {
       "id": "clothing-boy-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "clothing-boy-title",
       "itemProps": {
@@ -453,7 +444,6 @@
     "props": {
       "id": "footwear-girl-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "footwear-girl-title",
       "itemProps": {
@@ -475,7 +465,6 @@
     "props": {
       "id": "clothing-girl-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "clothing-girl-title",
       "itemProps": {
@@ -520,7 +509,6 @@
     "props": {
       "id": "footwear-size-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "footwear-size-title",
       "itemProps": {
@@ -542,7 +530,6 @@
     "props": {
       "id": "clothing-size-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "clothing-size-title",
       "itemProps": {
@@ -592,7 +579,6 @@
     "props": {
       "id": "futbol-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "futbol-title",
       "itemProps": {
@@ -655,7 +641,6 @@
     "props": {
       "id": "gym-training-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "gym-training-title",
       "itemProps": {
@@ -711,7 +696,6 @@
     "props": {
       "id": "tennis-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "tennis-title",
       "itemProps": {
@@ -766,7 +750,6 @@
     "props": {
       "id": "cycling-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "cycling-title",
       "itemProps": {
@@ -828,7 +811,6 @@
     "props": {
       "id": "other-sports-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "other-sports-title",
       "itemProps": {
@@ -873,7 +855,6 @@
     "props": {
       "id": "news-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "news-title",
       "itemProps": {
@@ -935,7 +916,6 @@
     "props": {
       "id": "colaborations-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "colaborations-title",
       "itemProps": {
@@ -993,7 +973,6 @@
     "props": {
       "id": "our-world-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "our-world-title",
       "itemProps": {
@@ -1055,7 +1034,6 @@
     "props": {
       "id": "originals-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "originals-title",
       "itemProps": {
@@ -1117,7 +1095,6 @@
     "props": {
       "id": "colections-title",
       "type": "custom",
-      //   "iconId": "vuitg-orders",
       "highlight": false,
       "blockClass": "colections-title",
       "itemProps": {

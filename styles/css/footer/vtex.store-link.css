@@ -2,3 +2,23 @@
     color: black;   
     text-decoration: none;
 }
+
+.link--mobile__section--one-1, .link--mobile__section--one-2 {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px 10px 15px 60px;
+}
+
+@media screen and (max-width: 760px) {
+    .link--top--six-1, .link--top--four-3, .link--top--four-10, .link--top--four-8, .link--top--four-11, .link--top--four-4, .link--top--four-15, .link--top--four-9 {
+        color: white;
+        font-size: 14px;
+    }
+}
+
+.link--footer__bottom {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}

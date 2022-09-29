@@ -1,13 +1,14 @@
-.headerRowBackground--1-mobile {
+.headerRowBackground--mobile__section--one {
     background-color: black;
     width: 100%;
-    padding: 20px;
+    padding: 10px 0px 10px 0px;
     min-height: 40px;
     max-height: 40px;
 }
 
-.headerRowContainer--1-mobile :global(.vtex-store-link-0-x-label) {
-    color: aliceblue;
+.headerRowContainer--mobile__section--one {
+    display: flex;
+    justify-content: center;
 }
 
 .headerRowBackground--2-mobile {
@@ -17,35 +18,28 @@
     justify-content: space-between;
 }
 
-.headerRowBackground--1-desktop {
+.headerRowBackground--desktop__section--one {
     background-color: black;
     width: 100%;
-    padding: 10px;
+    padding-top: 10px;
     min-height: 40px;
     max-height: 40px;
 }
 
-.headerRowContainer--1-desktop :global(.vtex-store-link-0-x-label) {
-    color: aliceblue;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 2px;
+.headerRowContainer--desktop__section--one {
+    display: flex;
+    justify-content: center;
 }
 
-.headerRowBackground--2-desktop {
+.headerRowBackground--desktop__section--two {
     background-color: #fff;
     height: 32px;
 }
 
-.headerRowContainer--2-desktop :global(.vtex-rich-text-0-x-paragraph){
-    font-size: 11px;
-    padding-right: 20px;
-}
-
-.headerRowBackground--3-desktop {
+.headerRowBackground--desktop__section--threedesktop__section--three {
     background-color: #fff;
     height: 45px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .autoCompleteOuterContainer--search--desktop {

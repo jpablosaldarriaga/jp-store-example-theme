@@ -1,0 +1,112 @@
+{
+  "footer-layout.mobile": {
+    "title": "Footer Móvil",
+    "children": [
+      "flex-layout.row#footer__mobile--one",
+      "flex-layout.row#footer__mobile--two",
+      "flex-layout.row#footer__mobile--three",
+      "flex-layout.row#footer__mobile--four"
+    ]
+  },
+
+  "flex-layout.row#footer__mobile--one": {
+    "title": "Footer móvil sección uno",
+    "children": ["link#mobile__section--one-1", "link#mobile__section--one-2"],
+    "props": {
+      "blockClass": "footer__mobile--one"
+    }
+  },
+
+  "flex-layout.row#footer__mobile--two": {
+    "title": "Footer móvil sección dos",
+    "children": ["flex-layout.col#footer__mobile--two"],
+    "props": {
+      "blockClass": "footer__mobile--two"
+    }
+  },
+  "flex-layout.col#footer__mobile--two": {
+    "children": [
+      "rich-text#footer__desktop--newsletter",
+      "link#footer__top--newsletter--button"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.row#footer__mobile--three": {
+    "title": "Footer móvil sección tres",
+    "children": [
+      "flex-layout.col#footer__mobile--three-1",
+      "flex-layout.col#footer__mobile--three-2"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--three"
+    }
+  },
+  "flex-layout.col#footer__mobile--three-1": {
+    "title": "sección tres columna 1",
+    "children": [
+      "link#footer__top--six-1",
+      "link#footer__top--four-3",
+      "link#footer__top--four-10",
+      "link#footer__top--four-8"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--three-1",
+      "width": "50%"
+    }
+  },
+  "flex-layout.col#footer__mobile--three-2": {
+    "title": "sección tres columna 2",
+    "children": [
+      "link#footer__top--four-11",
+      "link#footer__top--four-4",
+      "link#footer__top--four-15",
+      "link#footer__top--four-9"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--three-2",
+      "width": "50%"
+    }
+  },
+
+  "flex-layout.row#footer__mobile--four": {
+    "title": "Footer móvil sección cuatro",
+    "children": [
+      "flex-layout.col#footer__mobile--four-1",
+      "flex-layout.col#footer__mobile--four-2"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--four",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#footer__mobile--four-1": {
+    "title": "sección cuatro columna 1",
+    "children": [
+      "link#footer__bottom-1",
+      "link#footer__bottom-2",
+      "link#footer__bottom-3",
+      "link#footer__bottom-4",
+      "link#footer__bottom-5"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--four-1",
+      "width": "50%"
+    }
+  },
+  "flex-layout.col#footer__mobile--four-2": {
+    "title": "sección cuatro columna 2",
+    "children": [
+      "link#footer__bottom-6",
+      "link#footer__bottom-7",
+      "link#footer__bottom-8",
+      "link#footer__bottom-9"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--four-2",
+      "width": "50%"
+    }
+  }
+}
