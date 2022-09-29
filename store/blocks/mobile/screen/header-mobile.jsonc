@@ -2,23 +2,26 @@
   "header-layout.mobile": {
     "title": "Header Mobile",
     "children": [
-      "header-row#1-mobile",
-      "header-row#2-mobile"
+      "header-row#mobile__section--one",
+      "header-row#mobile__section--two"
       // "header-row#3-mobile"
     ]
   },
-  "header-row#1-mobile": {
+
+  "header-row#mobile__section--one": {
     "title": "Header superior móvil",
-    "children": ["header-force-center#1-mobile"],
+    "children": [
+      "icon#red__heart--icon",
+      "link#header__section--one-link",
+      "icon#red__heart--icon"
+    ],
     "props": {
-      "blockClass": "1-mobile",
+      "blockClass": "mobile__section--one",
       "fullWidth": true
     }
   },
-  "header-force-center#1-mobile": {
-    "children": ["link#header__link--1-col"]
-  },
-  "header-row#2-mobile": {
+
+  "header-row#mobile__section--two": {
     "title": "Header medio móvil",
     "children": [
       "drawer#header__mobile--menu",
@@ -48,7 +51,9 @@
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutoCompleteOnFocus": true,
-      "maxWidth": 50
+      "maxWidth": 50,
+      "blockClass": "mobile--search",
+      "containerMode": "container"
     }
   },
   "autocomplete-result-list.v2": {

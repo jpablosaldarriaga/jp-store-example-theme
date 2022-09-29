@@ -1,0 +1,23 @@
+.link--section__one--link {
+    margin: 0px 5px 0px 5px;
+    text-decoration: none;
+}
+
+.label--section__one--link {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px; 
+}
+
+.link--section__two--link {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.label--section__two--link {
+    color: black;
+    font-size: 12px;
+    padding-right: 20px;
+    letter-spacing: 1px;
+}
