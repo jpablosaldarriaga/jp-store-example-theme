@@ -1,0 +1,7 @@
+.vtex-input-prefix__group {
+    border-color: brown;
+}
+
+.autoCompleteOuterContainer--mobile--search:global(.vtex-input-mobile--search) {
+    border-color: brown;
+}

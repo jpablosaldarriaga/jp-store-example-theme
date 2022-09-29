@@ -292,7 +292,7 @@
     "props": {
       "id": "menu-item-about-us",
       "type": "custom",
-      "iconId": "vuitg-orders",
+      // "iconId": "custom-cart",
       "highlight": false,
       "blockClass": "content-main",
       "itemProps": {

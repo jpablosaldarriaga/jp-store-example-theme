@@ -1,5 +1,11 @@
 @font-face {
     font-family: 'Adihaus';
-    src: url(assets/fonts/729-font.ttf);
+    src: url(assets/fonts/AdihausDIN.woff2), url(assets/fonts/AdihausDIN.ttf);
     font-weight: bold;
   }
+
+@font-face {
+  font-family: 'Adihaus-bold';
+  src: url(assets/fonts/AdihausDINCnBold.woff2), url(assets/fonts/AdihausDINCnBold.ttf);
+  font-weight: bold;
+}

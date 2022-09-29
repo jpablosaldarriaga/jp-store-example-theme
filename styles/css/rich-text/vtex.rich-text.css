@@ -32,3 +32,9 @@
     font-size: 30px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 760px) {
+    .paragraph--desktop--newsletter {
+        margin: 15px 0px 2px 15px;
+    }
+}

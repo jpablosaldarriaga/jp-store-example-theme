@@ -1,0 +1,37 @@
+{
+  "link#header__section--one-link": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "DESCUENTOS EN TODA LA TIENDA",
+      "blockClass": "section__one--link"
+    }
+  },
+  "link#header__section--two-link-1": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "ayuda",
+      "blockClass": "section__two--link"
+    }
+  },
+  "link#header__section--two-link-2": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "cambios y devoluciones",
+      "blockClass": "section__two--link"
+    }
+  },
+  "link#header__section--two-link-3": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "seguimiento de pedidos",
+      "blockClass": "section__two--link"
+    }
+  },
+  "link#header__section--two-link-4": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "únete al club",
+      "blockClass": "section__two--link"
+    }
+  }
+}

@@ -349,5 +349,84 @@
       "displayMode": "button",
       "blockClass": "newsletter--button"
     }
+  },
+
+  "link#footer__bottom-1": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "Nuestros Datos",
+      "blockClass": "footer__bottom"
+    }
+  },
+  "link#footer__bottom-2": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "Política de Privacidad",
+      "blockClass": "footer__bottom"
+    }
+  },
+  "link#footer__bottom-3": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "Seleccionar País",
+      "blockClass": "footer__bottom"
+    }
+  },
+  "link#footer__bottom-4": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "Uso del Sitio",
+      "blockClass": "footer__bottom"
+    }
+  },
+  "link#footer__bottom-5": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "© 2022 adidas Colombia LTDA",
+      "blockClass": "footer__bottom"
+    }
+  },
+  "link#footer__bottom-6": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "Términos y Condiciones",
+      "blockClass": "footer__bottom"
+    }
+  },
+  "link#footer__bottom-7": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "Términos #YESadidas",
+      "blockClass": "footer__bottom"
+    }
+  },
+  "link#footer__bottom-8": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "Aviso de Privacidad",
+      "blockClass": "footer__bottom"
+    }
+  },
+  "link#footer__bottom-9": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "SIC",
+      "blockClass": "footer__bottom"
+    }
+  },
+
+  "link#mobile__section--one-1": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "INICIAR SESIÓN",
+      "blockClass": "mobile__section--one-1"
+    }
+  },
+  "link#mobile__section--one-2": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "TU CARRITO",
+      "blockClass": "mobile__section--one-2"
+    }
   }
 }
