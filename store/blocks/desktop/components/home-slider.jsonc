@@ -8,8 +8,8 @@
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home__slider",
-      "height": 500
+      "blockClass": "home__slider"
+      // "height": 500
       // "centerMode": "center",
       // "centerModeSlidersGap": 5
     },
@@ -58,7 +58,9 @@
   "image#home__slider--one": {
     "props": {
       "src": "assets/img/cuadrado-1.jpg",
-      "blockClass": "slider--one"
+      "blockClass": "slider--one",
+      "maxHeight": 350,
+      "maxWidth": 350
     }
   },
   "flex-layout.row#home__slider--trend-2": {
@@ -79,7 +81,9 @@
   "image#home__slider--two": {
     "props": {
       "src": "assets/img/slider-2.jpg",
-      "blockClass": "slider--two"
+      "blockClass": "slider--two",
+      "maxHeight": 350,
+      "maxWidth": 350
     }
   },
   "rich-text#title__slider--trend-2": {
@@ -112,7 +116,9 @@
   "image#home__slider--three": {
     "props": {
       "src": "assets/img/slider-3.jpg",
-      "blockClass": "slider--three"
+      "blockClass": "slider--three",
+      "maxHeight": 350,
+      "maxWidth": 350
     }
   },
   "rich-text#title__slider--trend-3": {
@@ -145,7 +151,9 @@
   "image#home__slider--four": {
     "props": {
       "src": "assets/img/slider-4.jpg",
-      "blockClass": "slider--four"
+      "blockClass": "slider--four",
+      "maxHeight": 350,
+      "maxWidth": 350
     }
   },
   "rich-text#title__slider--trend-4": {
@@ -178,7 +186,9 @@
   "image#home__slider--five": {
     "props": {
       "src": "assets/img/slider-5.jpg",
-      "blockClass": "slider--five"
+      "blockClass": "slider--five",
+      "maxHeight": 350,
+      "maxWidth": 350
     }
   },
   "list-context.image-list#home__slider--trend": {
@@ -239,5 +249,46 @@
       "centerModeSlidersGap": 5
     },
     "children": ["product-summary.shelf"]
+  },
+
+  "slider-layout#members__week": {
+    "title": "slider members week",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 100,
+        "stopOnHover": true
+      },
+      "blockClass": "members__week"
+    },
+    "children": [
+      "image#members__week",
+      "image#members__week",
+      "image#members__week",
+      "image#members__week",
+      "image#members__week",
+      "image#members__week"
+    ]
+  },
+
+  "slider-layout#only__members": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "usePagination": true,
+      "infinite": true,
+      "blockClass": "only__members",
+      "showPaginationDots": "never"
+    }
   }
 }

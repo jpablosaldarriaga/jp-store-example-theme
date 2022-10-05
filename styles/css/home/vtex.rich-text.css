@@ -1,7 +1,3 @@
-.heading--popular__now {
-    font-size: 30px;
-    font-style: italic;
-}
 
 .heading--text__trend {
     font-size: 30px;
@@ -21,6 +17,45 @@
     margin-bottom: 20px;
 }
 
-.container--popular__now, .container--trend {
+.container--trend {
  padding: 50px;
+}
+
+.paragraph--section--three-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.paragraph--section--three-text {
+    font-size: 18px;
+    color: black;
+}
+
+.container--section__four--title {
+    margin: 20px 10px 5px 10px;
+}
+
+.paragraph--section__four--title {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.paragraph--section__five--text {
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+@media screen and (max-width: 760px){
+    .paragraph--section__five--text {
+        font-size: 18px;
+        margin-top: 80px;
+    }
+}
+
+.paragraph--section__six--title {
+    font-weight: bold;
+    font-size: 16px;
 }

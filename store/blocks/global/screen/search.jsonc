@@ -75,13 +75,18 @@
       "product-rating-inline",
       "product-summary-price",
       "product-selling-price",
-      "add-to-cart-button",
+      "add-to-cart-button#prueba",
       "modal-trigger#global__quick--view",
       "modal-trigger#global__cart--info"
     ],
     "props": {
       "blockClass": "department__shelf",
       "width": "100%"
+    }
+  },
+  "add-to-cart-button#prueba": {
+    "props": {
+      "blockClass": "action-primary"
     }
   },
   "modal-trigger#global__quick--view": {

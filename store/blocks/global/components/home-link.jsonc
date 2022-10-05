@@ -47,5 +47,35 @@
       "label": "samba",
       "blockClass": "popular--five"
     }
+  },
+
+  "link#section__three--man": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "HOMBRE",
+      "blockClass": "section__three--man"
+    }
+  },
+  "link#section__three--woman": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "MUJER",
+      "blockClass": "section__three--woman"
+    }
+  },
+  "link#section__three--all": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "VER TODO",
+      "blockClass": "section__three--all"
+    }
+  },
+
+  "link#section__five--button": {
+    "props": {
+      "href": "/sobre-nosotros",
+      "label": "DESCUBRIR       -->",
+      "blockClass": "section__five--button"
+    }
   }
 }

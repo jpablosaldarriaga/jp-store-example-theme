@@ -1,0 +1,33 @@
+{
+  "info-card#home__section--one": {
+    "title": "Info card sección uno",
+    "props": {
+      "id": "home__section--one",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/img/home-section-one.jpg",
+      "headline": "MEMBERS WEEK: ALÍSTATE PARA UNA SEMANA INCREÍBLE",
+      "subhead": "La mejor semana del año está a la vuelta de la esquina. Aprovecha todas las sorpresas que tenemos para ti. Disfruta ser parte de adiClub.",
+      "callToActionMode": "link",
+      "callToActionText": "DESCUBRE MÁS",
+      "callToActionUrl": "/sobre-nosotros",
+      "blockClass": "home__section--one",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#home__section--two": {
+    "props": {
+      "id": "home__section--two",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/img/info-card-3.jpg",
+      "headline": "MÁXIMA COMODIDAD, INFINITAS POSIBILIDADES",
+      "subhead": "Es hora de sentirte a gusto.",
+      "callToActionMode": "link",
+      "callToActionText": "COMPRAR AHORA",
+      "callToActionUrl": "/sobre-nosotros",
+      "blockClass": "home__section--two",
+      "textAlignment": "center"
+    }
+  }
+}

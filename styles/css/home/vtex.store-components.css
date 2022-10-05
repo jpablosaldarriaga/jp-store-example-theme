@@ -1,99 +1,33 @@
-/* * INFO CARD 1 */
-
-.infoCardContainer--info--one {
-    height: 500px;
-    margin-top: 3px;
-    background-color: black;
-}
-
-.infoCardCallActionContainer--info--one :global(.vtex-button) {
-    background-color: white;
-    border-radius: 0;
-}
-
-.infoCardCallActionContainer--info--one :global(.vtex-button__label) {
-    color: black;
-}
-
-.infoCardHeadline--info--one {
-    font-size: medium;
-    color: white;
-}
-
-.infoCardImage--info--one {
-    height: 450px;
-}
-
-/* * INFO CARD 2 */
-
-.infoCardContainer--info--two {
-    height: 550px;
-    background-color: black;
-}
-
-.infoCardCallActionText--info--two {
-    color: white;
-}
-
-.infoCardHeadline--info--two {
-
-    color: white;
-}
-
-.infoCardSubhead--info--two {
-    font-size: medium;
-    color: white;
-}
-
-.infoCardImage--info--two {
-    height: 500px;
-}
 
 /* * INFO CARD 3 */
 
-.infoCardContainer--info--three {
+.infoCardContainer--home__section--two {
     margin-top: 5px;
     height: 550px;
-    background-color: #f2bff4;
+    background-color: #EDD4E6;
 }
 
-.infoCardCallActionText--info--three {
+.infoCardCallActionText--home__section--two {
     color: black;
 }
 
-.infoCardHeadline--info--three {
-    
+.infoCardCallActionText--home__section--two:hover {
+    color: white;
+    background-color: black;
+    text-decoration: black;
+}
+
+.infoCardHeadline--home__section--two {
     color: black;
 }
 
-.infoCardSubhead--info--three {
+.infoCardSubhead--home__section--two {
     font-size: medium;
     color: black;
 }
 
-.infoCardImage--info--three {
-    height: 500px;
-}
-
-/* * INFO CARD 4 */
-
-.infoCardContainer--info--four {
-    padding: 20px;
-    background-color:   rgba(205,92,92,1);
-}
-
-.infoCardCallActionText--info--four {
-    color: white;
-}
-
-.infoCardHeadline--info--four {
-    
-    color: white;
-}
-
-.infoCardSubhead--info--four {
-    font-size: medium;
-    color: white;
+.infoCardImage--home__section--two {
+    width: 100%;
 }
 
 .vtex-rich-text-0-x-container--text__trend :global(.vtex-rich-text-0-x-heading--text__trend){
@@ -104,7 +38,36 @@
     padding: 3px;
 }
 
-.imageElement--slider--one, .imageElement--slider--two, .imageElement--slider--three, .imageElement--slider--four, .imageElement--slider--five {
+/* .imageElement--slider--one, .imageElement--slider--two, .imageElement--slider--three, .imageElement--slider--four, .imageElement--slider--five {
     height: 350px;
     margin-bottom: 0;
+} */
+
+.infoCardImageContainer--home__section--one {
+    width: 100%;
+}
+
+.infoCardHeadline--home__section--one {
+    font-weight: bold;
+    color: black;
+}
+
+.infoCardSubhead--home__section--one {
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+}
+
+.infoCardContainer--home__section--one {
+    background-color: #F2F0EC;
+}
+
+.infoCardCallActionText--home__section--one {
+    color: black;
+}
+
+.infoCardCallActionText--home__section--one:hover {
+    color: white;
+    background-color: black;
+    text-decoration: black;
 }

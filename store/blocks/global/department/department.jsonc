@@ -15,98 +15,106 @@
       "search-not-found-layout"
     ]
   },
+
   "search-result-layout.desktop#department": {
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__results"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid"
+    }
+  },
+
+  "search-result-layout.mobile#department": {
     "children": [
       "flex-layout.row#department__breadcrumb",
       "flex-layout.row#department__results"
     ]
   },
+
   "flex-layout.row#department__breadcrumb": {
     "children": ["flex-layout.col#department__breadcrumb"]
   },
   "flex-layout.col#department__breadcrumb": {
     "children": ["breadcrumb.search"]
   },
-  "search-result-layout.mobile#department": {
-    "children": ["rich-text#mobile-response#department"]
-  },
-  "rich-text#desktop-response#department": {
-    "props": {
-      "text": "# Desktop search department"
-    }
-  },
-  "rich-text#mobile-response#department": {
-    "props": {
-      "text": "# Móvil search department"
-    }
-  },
+
   "flex-layout.row#department__results": {
     "title": "Department results",
     "children": [
-      // "search-content#desktop"
       "flex-layout.col#category__results--filter",
       "flex-layout.col#category__results--content"
     ]
   },
-  "gallery-layout-switcher": {
-    "children": [
-      "gallery-layout-option#grid__two-columns",
-      "gallery-layout-option#grid__one-column"
-    ]
-  },
-  "gallery-layout-option#grid__one-column": {
-    "props": {
-      "name": "grid-one-column",
-      "blockClass": "grid__selector--one-column"
-    },
-    "children": [
-      "responsive-layout.desktop#selector__one-column--desktop",
-      "icon#grid__selector--one-column"
-    ]
-  },
-  "icon#grid__selector--one-column": {
-    "props": {
-      "id": "mpa-columns",
-      "size": 30
-    }
-  },
-  "responsive-layout.desktop#selector__one-column--desktop": {
-    "children": ["rich-text#one__column"]
-  },
-  "rich-text#one__column": {
-    "props": {
-      "text": "una columna"
-    }
-  },
-  "gallery-layout-option#grid__two-columns": {
-    "props": {
-      "name": "grid-two-columns",
-      "blockClass": "grid__selector--two-columns"
-    }
-  },
+
   "flex-layout.col#category__results--filter": {
     "children": ["filter-navigator.v3"],
     "props": {
-      "width": "25%"
+      "width": "25%",
+      "blockClass": "category__results--filter"
     }
   },
+
   "flex-layout.col#category__results--content": {
     "children": [
-      // "gallery-layout-switcher",
+      "order-by.v2",
+      "gallery-layout-switcher",
       "search-content#results__content--products"
     ],
     "props": {
-      "width": "75%"
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true,
+      "colGap": 3,
+      "blockClass": "category__results--content"
     }
   },
+
+  "gallery-layout-switcher": {
+    "children": ["gallery-layout-option#grid", "gallery-layout-option#list"]
+  },
+  "gallery-layout-option#grid": {
+    "props": {
+      "name": "grid",
+      "blockClass": "grid__selector"
+    },
+    "children": ["icon-grid"]
+  },
+  "gallery-layout-option#list": {
+    "props": {
+      "name": "list",
+      "blockClass": "list__selector"
+    },
+    "children": ["icon-inline-grid"]
+  },
+
   "search-content#results__content--products": {
     "title": "resultados",
     "blocks": ["gallery#department", "not-found"]
   },
+
   "gallery#department": {
     "props": {
-      "blockClass": "department"
-    },
-    "blocks": ["product-summary.shelf#prueba"]
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1008px)": 4,
+            "(min-width:623px) and (max-width:1007px)": 3,
+            "(max-width:622px)": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf#list__selector",
+      "GridSummary": "product-summary.shelf#prueba"
+    }
   }
 }

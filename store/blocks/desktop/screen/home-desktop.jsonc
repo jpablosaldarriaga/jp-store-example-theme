@@ -1,0 +1,210 @@
+{
+  "responsive-layout.desktop#home__desktop": {
+    "title": "Home desktop",
+    "children": [
+      "flex-layout.row#home__section--one",
+      "flex-layout.row#home__members--week",
+      "flex-layout.row#home__section--two",
+      "flex-layout.row#home__only--members",
+      "flex-layout.row#home__section--three",
+      "flex-layout.row#home__section--four",
+      "flex-layout.row#home__section--five",
+      "flex-layout.row#home__section--six"
+    ]
+  },
+
+  "flex-layout.row#home__section--one": {
+    "title": "home sección uno",
+    "children": ["flex-layout.col#home__section--one"],
+    "props": {
+      "blockClass": "home__section--one",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#home__section--one": {
+    "title": "columna sección uno",
+    "children": ["info-card#home__section--one"],
+    "props": {
+      "blockClass": "home__section--one",
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.row#home__members--week": {
+    "title": "sección member week",
+    "children": ["slider-layout#members__week"],
+    "props": {
+      "blockClass": "home__members--week",
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#home__section--two": {
+    "title": "home sección dos",
+    "children": ["flex-layout.col#home__section--two"],
+    "props": {
+      "blockClass": "home__section--two",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#home__section--two": {
+    "title": "columna sección dos",
+    "children": ["info-card#home__section--two"],
+    "props": {
+      "blockClass": "home__section--two",
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.row#home__only--members": {
+    "title": "only members section",
+    "children": ["list-context.product-list#only__members"],
+    "props": {
+      "blockClass": "home__only--members",
+      "fullWidth": true
+    }
+  },
+  "list-context.product-list#only__members": {
+    "title": "only member lista de productos",
+    "blocks": ["product-summary.shelf#only__members"],
+    "children": ["slider-layout#only__members"]
+  },
+
+  "flex-layout.row#home__section--three": {
+    "title": "sección tres desktop",
+    "children": ["flex-layout.col#home__section--three"],
+    "props": {
+      "blockClass": "home__section--three",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#home__section--three": {
+    "title": "columna sección tres",
+    "children": [
+      "rich-text#home__section--three-title",
+      "rich-text#home__section--three-text",
+      "link#section__three--man",
+      "link#section__three--woman",
+      "link#section__three--all"
+    ],
+    "props": {
+      "blockClass": "home__section--three",
+      "width": "100%"
+    }
+  },
+
+  "flex-layout.row#home__section--four": {
+    "title": "home sección cuatro",
+    "children": ["flex-layout.col#home__section--four"],
+    "props": {
+      "blockClass": "home__section--four",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#home__section--four": {
+    "title": "columna sección cuatro",
+    "children": [
+      "rich-text#section__four--title",
+      "flex-layout.row#section__four--content"
+    ],
+    "props": {
+      "blockClass": "home__section--four",
+      "width": "100%"
+    }
+  },
+  "flex-layout.row#section__four--content": {
+    "children": [
+      "flex-layout.col#section__four--content-1",
+      "flex-layout.col#section__four--content-2",
+      "flex-layout.col#section__four--content-3"
+    ],
+    "props": {
+      "blockClass": "section__four--content"
+    }
+  },
+  "flex-layout.col#section__four--content-1": {
+    "children": ["link#popular__button--one", "link#popular__button--two"],
+    "props": {
+      "blockClass": "section__four--content-1"
+    }
+  },
+  "flex-layout.col#section__four--content-2": {
+    "children": ["link#popular__button--three", "link#popular__button--four"],
+    "props": {
+      "blockClass": "section__four--content-2"
+    }
+  },
+  "flex-layout.col#section__four--content-3": {
+    "children": ["link#popular__button--five", "link#popular__button--six"],
+    "props": {
+      "blockClass": "section__four--content-3"
+    }
+  },
+
+  "flex-layout.row#home__section--five": {
+    "title": "home sección cinco",
+    "children": [
+      "flex-layout.col#home__section--five-1",
+      "flex-layout.col#home__section--five-2"
+    ],
+    "props": {
+      "blockClass": "home__section--five",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#home__section--five-1": {
+    "title": "columna uno sección cinco",
+    "children": ["rich-text#section__five--text", "link#section__five--button"],
+    "props": {
+      "blockClass": "home__section--five-1",
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#home__section--five-2": {
+    "title": "columna dos sección cinco",
+    "children": ["list-context.bullet-group"],
+    "props": {
+      "blockClass": "home__section--five-2",
+      "width": "75%"
+    }
+  },
+
+  "flex-layout.row#home__section--six": {
+    "title": "home sección seis",
+    "children": [
+      "flex-layout.col#home__section--six-1",
+      "flex-layout.col#home__section--six-2"
+    ],
+    "props": {
+      "blockClass": "home__section--six",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#home__section--six-1": {
+    "title": "",
+    "children": ["rich-text#section__six--title"],
+    "props": {
+      "blockClass": "home__section--six-1",
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#home__section--six-2": {
+    "title": "clumna sección seis",
+    "children": [
+      "image#section__six--image-1",
+      "image#section__six--image-2",
+      "image#section__six--image-3",
+      "image#section__six--image-4",
+      "image#section__six--image-5",
+      "image#section__six--image-6",
+      "image#section__six--image-7",
+      "image#section__six--image-8",
+      "image#section__six--image-9",
+      "image#section__six--image-10"
+    ],
+    "props": {
+      "blockClass": "home__section--six-2",
+      "width": "100%"
+    }
+  }
+}

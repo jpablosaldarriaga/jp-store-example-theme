@@ -1,0 +1,15 @@
+{
+  "responsive-layout.mobile#home__mobile": {
+    "title": "home mobile",
+    "children": [
+      "flex-layout.row#home__section--one",
+      "flex-layout.row#home__members--week",
+      "flex-layout.row#home__section--two",
+      "flex-layout.row#home__only--members",
+      "flex-layout.row#home__section--three",
+      "flex-layout.row#home__section--four",
+      "flex-layout.row#home__section--five",
+      "flex-layout.row#home__section--six"
+    ]
+  }
+}

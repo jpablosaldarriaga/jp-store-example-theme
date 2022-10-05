@@ -1,0 +1,112 @@
+{
+  "list-context.bullet-group": {
+    "title": "Mi contexto de lista de bullets",
+    "children": ["slider-layout#bullet-goup"],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/tenis.jpg",
+          "titleBullet": "TENIS",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/ropa.jpg",
+          "titleBullet": "ROPA",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/outlet.jpg",
+          "titleBullet": "OUTLET",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/tenis-originals.jpg",
+          "titleBullet": "TENIS ORIGINALS",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/tenis-de-running.jpg",
+          "titleBullet": "TENIS DE RUNNING",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/guayos.jpg",
+          "titleBullet": "GUAYOS",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/camisetas.jpg",
+          "titleBullet": "CAMISETAS",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-goup": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 5,
+        "mobile": 2
+      },
+      "infinite": true,
+      "showPaginationDots": "never"
+    }
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "573215981063",
+      "message": "esta prueba se autodestruira en 3, 2, 1 ...."
+    }
+  },
+
+  "custom-grid": {
+    "children": [
+      "image#custom-grid__image--one",
+      "image#category__image-1",
+      "image#category__image-1",
+      "image#category__image-1",
+      "image#category__image-1"
+    ]
+  },
+  "rich-text#custom-grid-1": {
+    "props": {
+      "text": "Grilla 1"
+    }
+  },
+  "rich-text#custom-grid-2": {
+    "props": {
+      "text": "Grilla 2"
+    }
+  },
+  "rich-text#custom-grid-3": {
+    "props": {
+      "text": "Grilla 3"
+    }
+  },
+  "rich-text#custom-grid-4": {
+    "props": {
+      "text": "Grilla 4"
+    }
+  },
+  "rich-text#custom-grid-5": {
+    "props": {
+      "text": "Grilla 5"
+    }
+  }
+}

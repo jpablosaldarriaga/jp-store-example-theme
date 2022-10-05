@@ -12,5 +12,170 @@
       },
       "maxHeight": 500
     }
+  },
+
+  "image#section__six--image-1": {
+    "title": "imagen 1 sección seis",
+    "props": {
+      "src": "assets/img/colombia-escudo.jpg",
+      "title": "imagen 1",
+      "blockClass": "section__six--image-1",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      },
+      "maxWidth": 51,
+      "maxHeight": 44
+    }
+  },
+  "image#section__six--image-2": {
+    "title": "imagen 2 sección seis",
+    "props": {
+      "src": "assets/img/millonarios-escudo.jpg",
+      "title": "imagen 2",
+      "blockClass": "section__six--image-2",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      },
+      "maxWidth": 51,
+      "maxHeight": 44
+    }
+  },
+  "image#section__six--image-3": {
+    "title": "imagen 3 sección seis",
+    "props": {
+      "src": "assets/img/dim-escudo.jpg",
+      "title": "imagen 3",
+      "blockClass": "section__six--image-3",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      },
+      "maxWidth": 51,
+      "maxHeight": 44
+    }
+  },
+  "image#section__six--image-4": {
+    "title": "imagen 4 sección seis",
+    "props": {
+      "src": "assets/img/junior-escudo.jpg",
+      "title": "imagen 4",
+      "blockClass": "section__six--image-4",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      },
+      "maxWidth": 51,
+      "maxHeight": 44
+    }
+  },
+  "image#section__six--image-5": {
+    "title": "imagen 5 sección seis",
+    "props": {
+      "src": "assets/img/arsenal-escudo.jpg",
+      "title": "imagen 5",
+      "blockClass": "section__six--image-5",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      },
+      "maxWidth": 51,
+      "maxHeight": 44
+    }
+  },
+  "image#section__six--image-6": {
+    "title": "imagen 6 sección seis",
+    "props": {
+      "src": "assets/img/rmadrid-escudo.png",
+      "title": "imagen 6",
+      "blockClass": "section__six--image-6",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      },
+      "maxWidth": 51,
+      "maxHeight": 44
+    }
+  },
+  "image#section__six--image-7": {
+    "title": "imagen 7 sección seis",
+    "props": {
+      "src": "assets/img/munited-escudo.jpg",
+      "title": "imagen 7",
+      "blockClass": "section__six--image-7",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      },
+      "maxWidth": 51,
+      "maxHeight": 44
+    }
+  },
+  "image#section__six--image-8": {
+    "title": "imagen 8 sección seis",
+    "props": {
+      "src": "assets/img/juventus-escudo.jpg",
+      "title": "imagen 8",
+      "blockClass": "section__six--image-8",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      },
+      "maxWidth": 51,
+      "maxHeight": 44
+    }
+  },
+  "image#section__six--image-9": {
+    "title": "imagen 9 sección seis",
+    "props": {
+      "src": "assets/img/bayern-escudo.jpg",
+      "title": "imagen 9",
+      "blockClass": "section__six--image-9",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      },
+      "maxWidth": 51,
+      "maxHeight": 44
+    }
+  },
+  "image#section__six--image-10": {
+    "title": "imagen 10 sección seis",
+    "props": {
+      "src": "assets/img/boca-escudo.jpg",
+      "title": "imagen 10",
+      "blockClass": "section__six--image-10",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      },
+      "maxWidth": 51,
+      "maxHeight": 44
+    }
+  },
+
+  "image#members__week": {
+    "title": "imagen members week",
+    "props": {
+      "src": "assets/img/members-week.jpg",
+      "title": "imagen members week",
+      "blockClass": "members__week",
+      "link": {
+        "url": "/sobre-nosotros",
+        "newTab": true,
+        "attributeNoFlow": true
+      }
+    }
   }
 }

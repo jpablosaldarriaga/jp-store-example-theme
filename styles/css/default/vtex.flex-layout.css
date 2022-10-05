@@ -1,0 +1,9 @@
+.flexCol--only__members--products-data {
+    display: grid;
+    justify-items: left;
+}
+
+.flexColChild--only__members--products-data {
+    padding: 0px 10px;
+    margin: 0px 5px;
+}

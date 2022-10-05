@@ -1,7 +1,7 @@
-.vtex-input-prefix__group {
-    border-color: brown;
+.searchBarContainer :global(.vtex-styleguide-9-x-input), :global(.vtex-input__suffix) {
+    background: #eceff1;
 }
 
-.autoCompleteOuterContainer--mobile--search:global(.vtex-input-mobile--search) {
-    border-color: brown;
+.searchBarContainer {
+    border-radius: 0px;
 }

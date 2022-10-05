@@ -54,13 +54,20 @@
       "logo#header--logo",
       "flex-layout.row#menu__container",
       "header-spacer",
-      "search-bar#header__desktop",
+      "flex-layout.row#search__bar--container",
+
       "login",
       "icon#white__heart--icon",
       "minicart.v2"
     ],
     "props": {
       "blockClass": "desktop__section--three"
+    }
+  },
+  "flex-layout.row#search__bar--container": {
+    "children": ["search-bar#header__desktop"],
+    "props": {
+      "blockClass": "search__bar--container"
     }
   },
   "search-bar#header__desktop": {

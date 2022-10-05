@@ -1,10 +1,48 @@
 {
-  "rich-text#popular__now": {
+  "rich-text#section__four--title": {
     "props": {
-      "text": "# POPULAR AHORA",
-      "blockClass": "popular__now",
-      "textAlignment": "CENTER",
-      "textPosition": "LEFT"
+      "text": "Popular ahora",
+      "blockClass": "section__four--title"
+    }
+  },
+  "rich-text#trend": {
+    "props": {
+      "text": "# TENDENCIAS",
+      "blockClass": "text__trend"
+    }
+  },
+
+  "rich-text#home__section--three-title": {
+    "props": {
+      "text": "DESCUENTOS EN TODA LA TIENDA",
+      "blockClass": "section--three-title"
+    }
+  },
+  "rich-text#home__section--three-text": {
+    "props": {
+      "text": "Aprovecha 15% de descuento por compras superiores a $300.000 ó 30% de descuento por compras superiores a $600.000. *no aplica en artículos seleccionados.",
+      "blockClass": "section--three-text"
+    }
+  },
+
+  "rich-text#section__five--text": {
+    "props": {
+      "text": "Todo mujer",
+      "blockClass": "section__five--text"
+    }
+  },
+
+  "rich-text#section__six--title": {
+    "props": {
+      "text": "Encuentra tu equipo",
+      "blockClass": "section__six--title"
+    }
+  },
+
+  "rich-text#only__members--data": {
+    "props": {
+      "blockClass": "only__members--data",
+      "text": "Solo para miembros"
     }
   }
 }

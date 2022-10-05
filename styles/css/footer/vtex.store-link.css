@@ -10,7 +10,7 @@
     margin: 15px 10px 15px 60px;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1080px) {
     .link--top--six-1, .link--top--four-3, .link--top--four-10, .link--top--four-8, .link--top--four-11, .link--top--four-4, .link--top--four-15, .link--top--four-9 {
         color: white;
         font-size: 14px;
@@ -21,4 +21,16 @@
     color: white;
     text-decoration: none;
     font-size: 14px;
+}
+
+.link--newsletter--button {
+    background-color: black;
+    border-radius: 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1080px) {
+    .link--newsletter--button {
+        margin: 2px 0px 15px 15px;
+    }
 }

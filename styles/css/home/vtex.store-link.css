@@ -1,12 +1,8 @@
 .link--popular--one,  .link--popular--two, .link--popular--three, .link--popular--four, .link--popular--five {
-    background-color: white;
     color: black;
-    border-color: gray;
-    border-radius: 0;
-    margin-left: 5px;
-    font-style: italic;
-    font-size: 30px;
-    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .link--slider__trend--button {
@@ -17,4 +13,46 @@
 .buttonLink--popular--two {
     display: flex;
     width: auto;
+}
+
+.link--section__three--man, .link--section__three--woman, .link--section__three--all {
+    color: black;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.link--section__three--man:hover, .link--section__three--woman:hover, .link--section__three--all:hover {
+    background-color: black;
+    color: white;
+    text-decoration: black;
+}
+
+.link--section__five--button {
+    color: black;
+    text-decoration: none;
+    border: 2px;
+    border-style: solid solid none solid;
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 90%;
+}
+
+.link--section__five--button:hover {
+    color: gray;
+}
+
+@media screen and (max-width: 760px){
+    .link--section__five--button {
+        text-decoration: solid;
+        border: none;
+        width: auto;
+        font-size: 15px;
+    }
+    .link--section__five--button:hover {
+        text-decoration: black;
+        border: none;
+        color: white;
+        background-color: black;
+    }
 }

@@ -1,0 +1,12 @@
+.image--only--members {
+    height: 250px;
+    width: 250px;
+}
+
+.imageWrapper--only--members {
+    background: #ECEFF1;
+}
+
+.container--list__selector {
+    display: contents;
+}
